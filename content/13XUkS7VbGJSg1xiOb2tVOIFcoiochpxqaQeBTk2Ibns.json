@@ -1970,7 +1970,7 @@
         "ID": "stress",
         "priority_c": "",
         "priority_p": "",
-        "relationship": "",
+        "relationship": "no",
         "name_c.eng": "",
         "name_c.msa": ""
       },
