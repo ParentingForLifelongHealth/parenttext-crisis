@@ -1967,14 +1967,6 @@
     ],
     "goal_data": [
       {
-        "ID": "stress",
-        "priority_c": "",
-        "priority_p": "",
-        "relationship": "no",
-        "name_c.eng": "",
-        "name_c.msa": ""
-      },
-      {
         "ID": "relation",
         "priority_c": "1",
         "priority_p": "1",
