@@ -5,27 +5,27 @@
   "sheets": {
     "goals_api_sources": [
       {
-        "book": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns.json",
-        "model": "ModuleDataGlobal",
         "resource": "modules",
+        "model": "ModuleDataGlobal",
+        "book": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns.json",
         "sheet": "module_data"
-    },
-    {
-        "book": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns.json",
-        "model": "GoalModuleLinkGlobal",
-        "resource": "goal_topic_links",
-        "sheet": "goal_topic_link"
-    },
-    {
-        "book": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns.json",
-        "model": "GoalDataGlobal",
+      },
+      {
         "resource": "goals",
+        "model": "GoalDataGlobal",
+        "book": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns.json",
         "sheet": "goal_data"
       },
       {
-        "book": "1P8OmAMo7_KPVDGSBScRB6ml2e4psCeKS3deG75NFllw.json",
-        "model": "LTPActivities",
+        "resource": "goal_topic_links",
+        "model": "GoalModuleLinkGlobal",
+        "book": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns.json",
+        "sheet": "goal_topic_link"
+      },
+      {
         "resource": "ltp_activities",
+        "model": "LTPActivities",
+        "book": "1P8OmAMo7_KPVDGSBScRB6ml2e4psCeKS3deG75NFllw.json",
         "sheet": "ltp_activity_crisis_data"
       }
     ]
