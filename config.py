@@ -84,14 +84,19 @@ folder_within_repo = "translations/parent_text_crisis_global"
 # 1 - We may want to remove the quick replies and add them to message text and give
 #     numerical prompts to allow basic phone users to use the app - for this use
 #     reference code "move"
-# 2 - We may want to reformat the quick replies so that long ones are added to the
+# 2 - As above but use additional functionality allowing you to replace phrases,
+#     reference code "move_and_mod"
+# 3 - We may want to reformat the quick replies so that long ones are added to the
 #     message text as above - for this use reference code "reformat"
-# 3 - We may not want to do anything, for this use reference code "none"
-qr_treatment = "reformat"
+# 4 - We may not want to do anything, for this use reference code "none"
+qr_treatment = "move_and_mod"
 
 # This is the default phrase we want to add in if the quick replies are being moved to
 # message text.
 select_phrases = "./edits/select_phrases.json"
+
+# These are phrases that we mant to handle differently as we move qr to message text
+replace_phrases = "./edits/replace_phrases.json"
 
 # If we are in scenario 1 above, we may wish to add some basic numerical quick
 # replies back in, if so we need to specify add_selectors as True
@@ -149,6 +154,7 @@ def create_config():
         "qr_treatment": qr_treatment,
         "redirect_flow_names": redirect_flow_names,
         "select_phrases": select_phrases,
+        "replace_phrases": replace_phrases,
         #"sg_flow_id": "b83315a6-b25c-413a-9aa0-953bf60f223c",
         #"sg_flow_name": "safeguarding_wfr_interaction",
         "sg_sources": [
