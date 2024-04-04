@@ -56,7 +56,8 @@ sources = [
         # "archive": "parenttext_all.zip",
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
         "crowdin_name": "module",
-        "tags": [4,"response"],
+        #"tags": [4,"response"],
+        "tags": [1,"safeguarding"],
         #"tags": [1,"onboarding",1, "safeguarding",1,"delivery",4,"response"],
         "split_no": 1
     }
@@ -105,7 +106,7 @@ add_selectors = "yes"
 # Words we always want to keep as full quick replies are specified in this file.
 special_words = "./edits/special_words.json"
 
-# In scenario 2 we set limits on the number of quick replies and the length of the
+# In scenario 3 we set limits on the number of quick replies and the length of the
 # quick replies.
 #   count_threshold (relates to number of quick replies)
 #   length_threshold (relates to length of the longest quick reply)
