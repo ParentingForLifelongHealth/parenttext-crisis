@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "==content==": [
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "settings",
+        "status": "released",
+        "order": "0"
+      }
+    ],
+    "settings": [
+      {
+        "type_of_edit": "replace_saved_value",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "@fields.deployment",
+        "change": "Global",
+        "condition_var": "",
+        "category": "Crisis"
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_leave_programme_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_start_programme_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "referrals",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "ReferralsModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_entry_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SafeguardingEntryModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_trigger_wrapper_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SafeguardingLaunchFlowModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "id_generator_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_wfr_interaction_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "safeguarding_help_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "uncaught_message_flow_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
+    "safeguarding_trigger_wrapper_data": [
+      {
+        "ID": "menu",
+        "disabled_not_completed_registration": "The menu will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "disabled_not_selected_first_goal": "The menu will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "play",
+        "disabled_not_completed_registration": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "disabled_not_selected_first_goal": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "pause",
+        "disabled_not_completed_registration": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "disabled_not_selected_first_goal": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "conclusion_msg": "Thank you for taking a pause with me today. ",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      },
+      {
+        "ID": "help",
+        "disabled_not_completed_registration": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "disabled_not_selected_first_goal": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
+      }
+    ],
+    "safeguarding_leave_programme_data": [
+      {
+        "ID": "intro",
+        "msg": "Are you sure you want to stop receiving tips? ",
+        "metadata.description": ""
+      },
+      {
+        "ID": "confirm",
+        "msg": "If you do not want to receive any more messages, please type \"EXIT\".\n\nIf you made a mistake, please type \"BACK\".",
+        "metadata.description": "BACK needs to be consistent with \"back_option\"\nEXIT needs to be consistent with \"leave_option\""
+      },
+      {
+        "ID": "back_option",
+        "msg": "BACK",
+        "metadata.description": "needs to be consistent with \"confirm\" message"
+      },
+      {
+        "ID": "leave_option",
+        "msg": "EXIT",
+        "metadata.description": "needs to be consistent with \"confirm\" message"
+      },
+      {
+        "ID": "goodbye",
+        "msg": "Thank you for participating. If you want to return to continue receiving tips, type HELLO. \n\nWe hope to see you again soon.",
+        "metadata.description": "HELLO is just to suggest something to type, but anything typed in the chat will trigger the same behaviour"
+      }
+    ],
+    "safeguarding_start_programme_data": [
+      {
+        "ID": "join_again_in_program",
+        "msg": "You are already part of ParentText",
+        "metadata.description": ""
+      },
+      {
+        "ID": "instructions",
+        "msg": "Please type {MENU} to access resources and review previous tips, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access additional support resources.",
+        "metadata.description": ""
+      },
+      {
+        "ID": "join_again_completed",
+        "msg": "You have already received all of the avilable tips. Type {MENU} to review previous tips. ",
+        "metadata.description": ""
+      },
+      {
+        "ID": "rejoin_greeting",
+        "msg": "Welcome back to ParentText.",
+        "metadata.description": ""
+      }
+    ],
+    "safeguarding_entry_data": [
+      {
+        "ID": "generic",
+        "question": "Would you like information about local and international resources available to help you right now? ",
+        "yes_opt": "Yes",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Here are some services that might be able to help: ",
+        "no_message": "Type {HELP} at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!"
+      },
+      {
+        "ID": "mental_health",
+        "question": "Do you need some support with an emotional issue?",
+        "yes_opt": "Yes",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Here are some services that might be able to help: ",
+        "no_message": "Type {HELP} at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!"
+      },
+      {
+        "ID": "health",
+        "question": "Are you currently experiencing a health issue?",
+        "yes_opt": "Yes",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Here are some services that might be able to help: ",
+        "no_message": "Type {HELP} at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!"
+      },
+      {
+        "ID": "natural_disasters",
+        "question": "Do you have an emergency?",
+        "yes_opt": "Yes",
+        "yes_aliases": "yes y yeah yep",
+        "no_opt": "No",
+        "no_aliases": "no n nope",
+        "intro": "Here are some services that might be able to help: ",
+        "no_message": "Type {HELP} at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!"
+      }
+    ],
+    "safeguarding_wfr_interaction_data": [
+      {
+        "ID": "",
+        "msg": "no",
+        "metadata.description": ""
+      },
+      {
+        "ID": "go_back_qst",
+        "msg": "Would you like to go back to the previous messages?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "yes_opt",
+        "msg": "Yes",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_opt",
+        "msg": "No",
+        "metadata.description": ""
+      },
+      {
+        "ID": "yes_opt_aliases",
+        "msg": "yes y yeah yep",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_opt_aliases",
+        "msg": "no n nope nah",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_message",
+        "msg": "That's okay. Type {HELP} at any time if you would like the details of emergency services or other hotlines.",
+        "metadata.description": ""
+      }
+    ],
+    "referrals": [
+      {
+        "ID": "generic",
+        "referrals": "{generic referrals}",
+        "option_name": "Local and international support"
+      },
+      {
+        "ID": "health",
+        "referrals": "{health referrals}",
+        "option_name": "Medical services"
+      },
+      {
+        "ID": "mental_health",
+        "referrals": "{mental_health referrals}",
+        "option_name": "Mental health support"
+      },
+      {
+        "ID": "family",
+        "referrals": "{family referrals}",
+        "option_name": "Family counselling services"
+      },
+      {
+        "ID": "natural_disasters",
+        "referrals": "{natural_disasters referrals}",
+        "option_name": "Natural disasters"
+      }
+    ],
+    "safeguarding_help_data": [
+      {
+        "ID": "intro",
+        "msg": "It looks like you are facing an emergency. Can you please tell us what kind of assistance you need?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "offer_next",
+        "msg": "What would you like to do?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "more_contacts_opt",
+        "msg": "Get other emergency contacts",
+        "metadata.description": ""
+      },
+      {
+        "ID": "menu_opt",
+        "msg": "Go to the Main Menu",
+        "metadata.description": ""
+      },
+      {
+        "ID": "exit_opt",
+        "msg": "Exit menu",
+        "metadata.description": ""
+      },
+      {
+        "ID": "farewell",
+        "msg": "We hope this was helpful. You can access this information at any time by typing {HELP}. ",
+        "metadata.description": ""
+      }
+    ],
+    "id_generator_data": [
+      {
+        "ID": "success_msg",
+        "msg": "Your research ID is @fields.research_id",
+        "metadata.description": ""
+      },
+      {
+        "ID": "failure_msg",
+        "msg": "Something went wrong when creating your research ID, please get in touch with your facilitator.",
+        "metadata.description": ""
+      }
+    ],
+    "uncaught_message_flow_data": [
+      {
+        "ID": "instructions",
+        "msg": "I don't understand your message.\nPlease type {MENU} to access resources and review previous tips, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access additional support resources.",
+        "metadata.description": ""
+      },
+      {
+        "ID": "rejoin_greetings",
+        "msg": "Welcome back to ParentText!",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_consent",
+        "msg": "You have not given consent to participate in this programme. Would you like to participate?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_consent_yes_opt",
+        "msg": "Yes",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_consent_no_opt",
+        "msg": "No",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_join_msg",
+        "msg": "If you ever want to receive these tips in the future just type HELLO. \nWe hope to see you again soon.",
+        "metadata.description": ""
+      },
+      {
+        "ID": "rejoin_question",
+        "msg": "We are here to help. You've received @fields.c_n_mod_compl out of @fields.c_n_mod tips. Would you like to continue?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "rejoin_yes_opt",
+        "msg": "Yes",
+        "metadata.description": ""
+      },
+      {
+        "ID": "rejoin_no_opt",
+        "msg": "No",
+        "metadata.description": ""
+      },
+      {
+        "ID": "no_rejoin_msg",
+        "msg": "That's okay. If you ever decide to come back, type HELLO. \nWe hope to see you again soon, and we wish you a happy and peaceful day! ",
+        "metadata.description": ""
+      }
+    ]
+  }
+}

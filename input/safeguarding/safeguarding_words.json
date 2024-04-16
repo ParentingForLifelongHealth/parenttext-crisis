@@ -1,0 +1,1572 @@
+{
+    "generic": [
+        {
+            "English": {
+                "keywords": [
+                    "kidnap",
+                    "kidnapping",
+                    "kidnapper",
+                    "kidnapped"
+                ],
+                "mispellings": [
+                    "troublesome",
+                    "kidnapp",
+                    "kiddnap",
+                    "kidnape"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "kidnapper",
+                        "enl\u00e8vement",
+                        "kidnappeur",
+                        "kidnapp\u00e9",
+                        "kidnapp\u00e9e"
+                    ],
+                    "mispellings": [
+                        "dificil",
+                        "enl\u00e8vemen",
+                        "enlevemen",
+                        "enlaiveman",
+                        "enleveman",
+                        "enlevmen",
+                        "enlevement"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "death",
+                    "dead",
+                    "dying"
+                ],
+                "mispellings": [
+                    "deeath",
+                    "deat"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "mort",
+                        "mort",
+                        "morte",
+                        "mourant",
+                        "mourante"
+                    ],
+                    "mispellings": [
+                        "mor",
+                        "more",
+                        "mouran",
+                        "morrant",
+                        "meur",
+                        "mourir"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "illegal"
+                ],
+                "mispellings": [
+                    "ilegal",
+                    "ellegal",
+                    "ileagaly"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "ill\u00e9gal"
+                    ],
+                    "mispellings": [
+                        "ilegal",
+                        "ilegalle",
+                        "ylegal",
+                        "ilega",
+                        "ilegaleman",
+                        "ilegalemen",
+                        "ilegalemen"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "poison",
+                    "poisoning",
+                    "poisoned"
+                ],
+                "mispellings": [
+                    "pesian",
+                    "boisoned",
+                    "poision",
+                    "poisioning",
+                    ""
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "poison",
+                        "empoisonnement",
+                        "empoisonn\u00e9",
+                        "empoisonn\u00e9e"
+                    ],
+                    "mispellings": [
+                        "poisson",
+                        "poizon",
+                        "empoizoner",
+                        "poizoner",
+                        "anpoizon\u00e9",
+                        "empoisoner",
+                        "enpoisone"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "crisis",
+                    "crises"
+                ],
+                "mispellings": [
+                    "krisis",
+                    "krises"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "crise",
+                        "crises"
+                    ],
+                    "mispellings": [
+                        "criz",
+                        "crize",
+                        "kryz",
+                        "krize",
+                        "crisse",
+                        "cryse"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "trouble",
+                    "troubling",
+                    "troublesome",
+                    "troubled"
+                ],
+                "mispellings": [
+                    "troubl",
+                    "trevel",
+                    "trubl"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "Probl\u00e8me",
+                        "troublant",
+                        "p\u00e9nible",
+                        "troubl\u00e9",
+                        "troubl\u00e9e"
+                    ],
+                    "mispellings": [
+                        "troubl",
+                        "troublan",
+                        "truble",
+                        "trubles",
+                        "troble",
+                        "trobble",
+                        "pblm",
+                        "blem"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "victim",
+                    "victimised"
+                ],
+                "mispellings": [
+                    "victm",
+                    "victimized",
+                    "victem"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "victime",
+                        "victime"
+                    ],
+                    "mispellings": [
+                        "victm",
+                        "victimes",
+                        "victim",
+                        "viktim",
+                        "viktem",
+                        "victimm",
+                        "vyktim",
+                        "vctm"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "emergency",
+                    "911"
+                ],
+                "mispellings": [
+                    "emergincy",
+                    "emergincey",
+                    "emergince",
+                    "imerjensi"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "urgence",
+                        "secours"
+                    ],
+                    "mispellings": [
+                        "urjens",
+                        "urjence",
+                        "urganse",
+                        "urjansse",
+                        "urjense",
+                        "ujense"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "danger",
+                    "dangerous",
+                    "endangered"
+                ],
+                "mispellings": [
+                    "dangeur",
+                    "dangeer",
+                    "dangre",
+                    "dange"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "danger",
+                        "dangereux",
+                        "danger"
+                    ],
+                    "mispellings": [
+                        "danj\u00e9",
+                        "danjer",
+                        "dangereu",
+                        "danjereu",
+                        "denj\u00e9",
+                        "deng\u00e9",
+                        "denger"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "stalking"
+                ],
+                "mispellings": [
+                    "staling",
+                    "staking",
+                    "stakling",
+                    "stalkin"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "harc\u00e8lement"
+                    ],
+                    "mispellings": [
+                        "arceleman",
+                        "arcelemen",
+                        "arsaileman",
+                        "arcele",
+                        "harecele",
+                        "harsele",
+                        "harseleman"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "follow",
+                    "following",
+                    "followed"
+                ],
+                "mispellings": [
+                    "folow",
+                    "folowed",
+                    "followin",
+                    "folowin"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "suivre",
+                        "suit",
+                        "suivi"
+                    ],
+                    "mispellings": [
+                        "suivr",
+                        "sui",
+                        "suivi",
+                        "suvre",
+                        "suvr"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "suffer",
+                    "suffering",
+                    "suffered",
+                    "tortured"
+                ],
+                "mispellings": [
+                    "sufer",
+                    "sufering",
+                    "sufered"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "souffrir",
+                        "souffrance",
+                        "souffert",
+                        "tortur\u00e9",
+                        "tortur\u00e9e"
+                    ],
+                    "mispellings": [
+                        "suffrir",
+                        "souffer",
+                        "soffert",
+                        "soffrir",
+                        "suffrance",
+                        "soufrence",
+                        "sufrense",
+                        "souffrans",
+                        "torture",
+                        "torturee"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "hide",
+                    "hiding",
+                    "hid"
+                ],
+                "mispellings": [
+                    "hidin",
+                    "heed",
+                    "haid"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "cacher",
+                        "cache",
+                        "cach\u00e9"
+                    ],
+                    "mispellings": [
+                        "kacher",
+                        "casher",
+                        "cashe",
+                        "cash\u00e9",
+                        "cach",
+                        "kache"
+                    ]
+                }
+            }
+        }
+    ],
+    "health": [
+        {
+            "English": {
+                "keywords": [
+                    "vomit",
+                    "vomitted",
+                    "vomitting"
+                ],
+                "mispellings": [
+                    "yak",
+                    "vomited",
+                    "womit"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "vomi",
+                        "vomi",
+                        "vomir"
+                    ],
+                    "mispellings": [
+                        "vomire",
+                        "vmir",
+                        "vom"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "puke",
+                    "puking",
+                    "puked"
+                ],
+                "mispellings": [
+                    "pook",
+                    "pukeing",
+                    "pooking"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "vomir",
+                        "vomir",
+                        "vomi"
+                    ],
+                    "mispellings": [
+                        "vom",
+                        "vommir",
+                        "vmi"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "disease",
+                    "STD",
+                    "diseases"
+                ],
+                "mispellings": [
+                    "diseaze",
+                    "dizeese",
+                    "SDT"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "maladie",
+                        "MST",
+                        "maladies"
+                    ],
+                    "mispellings": [
+                        "maladi",
+                        "SMT",
+                        "malad",
+                        "malady",
+                        "mldie"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "sick",
+                    "sickness",
+                    "sickly"
+                ],
+                "mispellings": [
+                    "sik",
+                    "seck",
+                    "seek"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "malade",
+                        "maladie",
+                        "maladif"
+                    ],
+                    "mispellings": [
+                        "malad",
+                        "maladdi",
+                        "maladife",
+                        "maladei"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "ill",
+                    "illness",
+                    "illnesses"
+                ],
+                "mispellings": [
+                    "illl",
+                    "illniss",
+                    "illnees"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "malade",
+                        "maladie",
+                        "maladies"
+                    ],
+                    "mispellings": [
+                        "malad",
+                        "maladdie",
+                        "malladi"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "health",
+                    "healthy"
+                ],
+                "mispellings": [
+                    "haelth",
+                    "healthy",
+                    "helath"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "sant\u00e9",
+                        "sain"
+                    ],
+                    "mispellings": [
+                        "sante",
+                        "sin",
+                        "sein",
+                        "senter",
+                        "sent\u00e9",
+                        "ssante"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "hospital",
+                    "clinic"
+                ],
+                "mispellings": [
+                    "hopital",
+                    "hopsital",
+                    "celinic"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "h\u00f4pital",
+                        "clinique"
+                    ],
+                    "mispellings": [
+                        "opital",
+                        "klinik",
+                        "klinic",
+                        "clinik",
+                        "clenik",
+                        "klenik"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "miscarriage",
+                    "miscarry"
+                ],
+                "mispellings": [
+                    "miscariage",
+                    "miscarig"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "fausse couche",
+                        "faire une fausse couche"
+                    ],
+                    "mispellings": [
+                        "faus couch",
+                        "fos couche",
+                        "fosse couche",
+                        "foss kouch",
+                        "fau couche",
+                        "fasse coush"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "pregnant",
+                    "pregnancy",
+                    "expecting"
+                ],
+                "mispellings": [
+                    "pegant",
+                    "preganci",
+                    "prengant"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "enceinte",
+                        "grossesse",
+                        "enceinte"
+                    ],
+                    "mispellings": [
+                        "enseinte",
+                        "ensint",
+                        "anceinte",
+                        "encinte",
+                        "ensinte",
+                        "ancint",
+                        "ansint"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "abortion",
+                    "abort",
+                    "aborted",
+                    "aborting"
+                ],
+                "mispellings": [
+                    "abbortion",
+                    "obortion"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "avortement",
+                        "avorter",
+                        "avort\u00e9"
+                    ],
+                    "mispellings": [
+                        "avort",
+                        "avorte",
+                        "avortemen",
+                        "avortte",
+                        "avoter"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "COVID",
+                    "COVID19"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "COVID",
+                        "COVID19"
+                    ],
+                    "mispellings": [
+                        "COV",
+                        "COV19",
+                        "Covide"
+                    ]
+                }
+            }
+        }
+    ],
+    "mental_health": [
+        {
+            "English": {
+                "keywords": [
+                    "anxiety",
+                    "anxious",
+                    "anxiousness"
+                ],
+                "mispellings": [
+                    "angziaty",
+                    "anxieti",
+                    "anxeity"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "anxi\u00e9t\u00e9",
+                        "anxieux",
+                        "anxi\u00e9t\u00e9"
+                    ],
+                    "mispellings": [
+                        "anxeite",
+                        "anxieu",
+                        "anxie",
+                        "anxiete"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "depression",
+                    "depressive",
+                    "depressed"
+                ],
+                "mispellings": [
+                    "despression",
+                    "despressive",
+                    "despressed"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "d\u00e9pression",
+                        "d\u00e9pressif",
+                        "d\u00e9prim\u00e9"
+                    ],
+                    "mispellings": [
+                        "despression",
+                        "despressif",
+                        "deprim",
+                        "dprime",
+                        "depprime",
+                        "deprecif",
+                        "deprime",
+                        "depressif"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "disorder",
+                    "disorders"
+                ],
+                "mispellings": [
+                    "dizorder",
+                    "dissorder",
+                    "isorder"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "trouble",
+                        "troubles"
+                    ],
+                    "mispellings": [
+                        "trubl",
+                        "trubbles",
+                        "troubl",
+                        "touble",
+                        "troubble"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "therapy"
+                ],
+                "mispellings": [
+                    "therapi",
+                    "therepy",
+                    "therepi"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "th\u00e9rapie"
+                    ],
+                    "mispellings": [
+                        "terapi",
+                        "terapie",
+                        "terrapi",
+                        "terrapie",
+                        "terap"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "psychologist"
+                ],
+                "mispellings": [
+                    "sychology",
+                    "psichology"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "psychologue"
+                    ],
+                    "mispellings": [
+                        "sycologue",
+                        "sicologue",
+                        "psikolog",
+                        "psicologue",
+                        "sikologue"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "suicide",
+                    "suicidal",
+                    "suicides"
+                ],
+                "mispellings": [
+                    "suicido",
+                    "suiced"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "suicide",
+                        "suicidaire",
+                        "suicides"
+                    ],
+                    "mispellings": [
+                        "sucid",
+                        "ssuicid",
+                        "suisidaire",
+                        "suside",
+                        "sucider",
+                        "sucidere"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "stress",
+                    "stressed"
+                ],
+                "mispellings": [
+                    "stresss",
+                    "strees",
+                    "srtess",
+                    "stres"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "stress",
+                        "stress\u00e9",
+                        "stress\u00e9e"
+                    ],
+                    "mispellings": [
+                        "stresss",
+                        "strees",
+                        "srtess",
+                        "stres",
+                        "stresser",
+                        "strss\u00e9",
+                        "stressee",
+                        "stresse",
+                        "strs"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "distress",
+                    "distressed"
+                ],
+                "mispellings": [
+                    "destressed",
+                    "destresss",
+                    "detresse",
+                    "detresse"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "d\u00e9tresse"
+                    ],
+                    "mispellings": [
+                        "detres",
+                        "dettresse",
+                        "dttress",
+                        "dtrese",
+                        "detrres",
+                        "detrresse"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "sad",
+                    "saddened"
+                ],
+                "mispellings": [
+                    "sadd",
+                    "saddenned",
+                    "sadend"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "triste",
+                        "attrist\u00e9",
+                        "attrist\u00e9e"
+                    ],
+                    "mispellings": [
+                        "trist",
+                        "atrist\u00e9",
+                        "atristte",
+                        "atrisste",
+                        "trste",
+                        "attristee",
+                        "attriste"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "scare",
+                    "scared"
+                ],
+                "mispellings": [
+                    "csared",
+                    "csare"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "effrayer",
+                        "effray\u00e9",
+                        "effray\u00e9e"
+                    ],
+                    "mispellings": [
+                        "effraier",
+                        "efrayer",
+                        "efraye",
+                        "fraye",
+                        "effrayee",
+                        "effraye"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "afraid"
+                ],
+                "mispellings": [
+                    "afaid"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "effray\u00e9"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "worried"
+                ],
+                "mispellings": [
+                    "woried"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "inquiet"
+                    ],
+                    "mispellings": [
+                        "inkie",
+                        "inkiet",
+                        "inqiet"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "fear",
+                    "frighten"
+                ],
+                "mispellings": [
+                    "fer",
+                    "fire"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "peur",
+                        "effrayer"
+                    ],
+                    "mispellings": [
+                        "peurr",
+                        "peurre",
+                        "reup",
+                        "perr"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "panic",
+                    "panicking",
+                    "panicked"
+                ],
+                "mispellings": [
+                    "panik",
+                    "paniked",
+                    "paniking"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "panique",
+                        "panique",
+                        "paniqu\u00e9",
+                        "paniqu\u00e9e"
+                    ],
+                    "mispellings": [
+                        "panik",
+                        "panike",
+                        "panique",
+                        "paniquee"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "mad"
+                ],
+                "mispellings": [
+                    "md",
+                    "made"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "fou",
+                        "folle"
+                    ],
+                    "mispellings": [
+                        "fouu",
+                        "foou",
+                        "ouf"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "grief"
+                ],
+                "mispellings": [
+                    "greif",
+                    "griev"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "douleur"
+                    ],
+                    "mispellings": [
+                        "douler",
+                        "duleur",
+                        "doleur",
+                        "doulur"
+                    ]
+                }
+            }
+        }
+    ],
+    "natural_disasters": [
+        {
+            "English": {
+                "keywords": [
+                    "fire",
+                    "wildfire"
+                ],
+                "mispellings": [
+                    "blaze",
+                    "burnt",
+                    "hot",
+                    "fir"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "feu",
+                        "feu de for\u00eat"
+                    ],
+                    "mispellings": [
+                        "fe",
+                        "brul",
+                        "feu foret"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "earthquake",
+                    "Landslide",
+                    "collapse"
+                ],
+                "mispellings": [
+                    "shake",
+                    "irthquake",
+                    "earthquak",
+                    "fall"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "tremblement terre",
+                        "glissement terrain",
+                        "\u00e9croulement"
+                    ],
+                    "mispellings": [
+                        "trenblemen",
+                        "trmbl",
+                        "ecroulmen",
+                        "tramblemen",
+                        "ter",
+                        "ecroulement"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "flood",
+                    "flooded",
+                    "flooding",
+                    "monsoon"
+                ],
+                "mispellings": [
+                    "flud",
+                    "flod",
+                    "munson",
+                    "monson",
+                    "monsun"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "inondations",
+                        "inond\u00e9",
+                        "inondation",
+                        "mousson"
+                    ],
+                    "mispellings": [
+                        "inondasion",
+                        "innonde",
+                        "nondation",
+                        "inondasyon",
+                        "mouson",
+                        "inonde"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "smoke",
+                    "smoked"
+                ],
+                "mispellings": [
+                    "smooke",
+                    "smok"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "fum\u00e9e",
+                        "fum\u00e9",
+                        "fum\u00e9e"
+                    ],
+                    "mispellings": [
+                        "fum",
+                        "fumme",
+                        "fume",
+                        "fumee"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "typhoon",
+                    "hurricane",
+                    "tornado",
+                    "cyclone"
+                ],
+                "mispellings": [
+                    "storm",
+                    "rain",
+                    "water",
+                    "stormy"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "typhon",
+                        "ouragan",
+                        "tornade",
+                        "cyclone"
+                    ],
+                    "mispellings": [
+                        "tifon",
+                        "tyfon",
+                        "tiffon",
+                        "ouragant",
+                        "tornad",
+                        "siclone",
+                        "ciclon",
+                        "siclon"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "droughts",
+                    "dry",
+                    "aridity"
+                ],
+                "mispellings": [
+                    "dri"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "s\u00e9cheresse",
+                        "sec",
+                        "aridit\u00e9"
+                    ],
+                    "mispellings": [
+                        "secheres",
+                        "sek",
+                        "sce",
+                        "arid",
+                        "aridite"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "volcanic eruption",
+                    "volcano"
+                ],
+                "mispellings": [
+                    "fire",
+                    "hot"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "\u00e9ruption volcanique",
+                        "volcan"
+                    ],
+                    "mispellings": [
+                        "volkan",
+                        "vollkan",
+                        "volcann",
+                        "eruption volcanique"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "wind",
+                    "blast"
+                ],
+                "mispellings": [
+                    "air"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "vent",
+                        "explosion"
+                    ],
+                    "mispellings": [
+                        "ven",
+                        "van",
+                        "vant",
+                        "xplosion",
+                        "explozion",
+                        "xploze",
+                        "explos"
+                    ]
+                }
+            }
+        }
+    ],
+    "menu": [
+        {
+            "English": {
+                "keywords": [
+                    "MENU",
+                    "Main Menu",
+                    "Menue",
+                    "meny"
+                ],
+                "mispellings": [
+                    "manu",
+                    "meun"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "MENU",
+                        "Menu Principal",
+                        "Menue",
+                        "Menu Prinsipal"
+                    ],
+                    "mispellings": [
+                        "Manu Prinsipal",
+                        "meun",
+                        "Menu Prinsipal"
+                    ]
+                }
+            }
+        }
+    ],
+    "help": [
+        {
+            "English": {
+                "keywords": [
+                    "HELP",
+                    "halp",
+                    "hep",
+                    "hlep"
+                ],
+                "mispellings": [
+                    "hellp"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "AIDE",
+                        "aid",
+                        "ede",
+                        "aidde"
+                    ],
+                    "mispellings": [
+                        "ade",
+                        "edde"
+                    ]
+                }
+            }
+        }
+    ],
+    "pause": [
+        {
+            "English": {
+                "keywords": [
+                    "PAUSE",
+                    "Puase",
+                    "Paws",
+                    "Paus"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "PAUSE",
+                        "Puase",
+                        "Pose",
+                        "Paus"
+                    ],
+                    "mispellings": [
+                        "Pauz"
+                    ]
+                }
+            }
+        }
+    ],
+    "start": [
+        {
+            "English": {
+                "keywords": [
+                    "Start",
+                    "COMMENCEZ"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "COMMENCEZ",
+                        "Start"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "stop": [
+        {
+            "English": {
+                "keywords": [
+                    "stop"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "ARR\u00caT",
+                        "arret"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "play": [
+        {
+            "English": {
+                "keywords": [
+                    "PLAY",
+                    "paly",
+                    "pla",
+                    "pley"
+                ],
+                "mispellings": [
+                    "plaay"
+                ]
+            },
+            "Translation": {
+                "fra": {
+                    "keywords": [
+                        "JOUEZ",
+                        "juez",
+                        "joez",
+                        "jouz"
+                    ],
+                    "mispellings": [
+                        "juoz",
+                        "jouze"
+                    ]
+                }
+            }
+        }
+    ]
+}

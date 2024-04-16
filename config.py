@@ -17,49 +17,20 @@ T_menu = "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE"
 N_menu_data_response = "1Mg1MuS3p2FNMVJl9Qu9ouU9rjzOrPiF3HWleMKHPK3Y"
 N_menu_data_common = "1maT0rZGZjm1cyqyr1U6wI3HULiVVyTEV0xqjkkXki8c"
 
-# "filename" is how it will be generally named in the pipeline.
-#
-# "crowdin_name" will be the name of the file that is produced to send to the
-# translators.
-#
-# "tags" are used to identify flows to be process. Possible values for tag 1:
-#   onboarding
-#   dev_assess
-#   ltp_activity
-#   home_activity_checkin
-#   module
-#   goal_checkin
-#   safeguarding
-#   menu
-#   delivery
-#
-# "split_no" is used to divide the file at the final step to get it to a manageable
-# size that can be uploaded to RapidPro.
-sources = [
-    {
-        "filename": "parenttext_all",
-        "spreadsheet_ids": [
-            N_onboarding_data,
-            T_onboarding,
-            C_ltp_activities,
-            C_modules_all_ages,
-            T_content,
-            N_safeguarding_data,
-            T_safeguarding,
-            N_delivery_data_response,
-            T_delivery,
-            N_menu_data_common,
-            N_menu_data_response,
-            T_menu,
-            localised_sheets
-        ],
-        # "archive": "parenttext_all.zip",
-        #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
-        "crowdin_name": "module",
-        "tags": [4,"response"],
-        #"tags": [1,"onboarding",1, "safeguarding",1,"delivery",4,"response"],
-        "split_no": 1
-    }
+creation_spreadsheet_ids = [
+    N_onboarding_data,
+    T_onboarding,
+    C_ltp_activities,
+    C_modules_all_ages,
+    T_content,
+    N_safeguarding_data,
+    T_safeguarding,
+    N_delivery_data_response,
+    T_delivery,
+    N_menu_data_common,
+    N_menu_data_response,
+    T_menu,
+    localised_sheets
 ]
 
 # Data used when modifying expiration times.
@@ -67,7 +38,7 @@ special_expiration = "./edits/specific_expiration.json"
 default_expiration = 1440
 
 # Model that is used as part of the process when the data is extracted from sheets.
-model = "models.parenttext_models"
+models = "models.parenttext_models"
 
 # Languages that will be looked for to localize back into the flows, "language" is the
 # 3-letter code used in RapidPro, "code" is the 2 letter code used in CrowdIn.
@@ -136,30 +107,189 @@ redirect_flow_names = (
 
 def create_config():
     return {
-        "ab_testing_sheet_id": ab_testing_sheet_ID,
-        "add_selectors": add_selectors,
-        "count_threshold": count_threshold,
-        "default_expiration": default_expiration,
-        "eng_edits_sheet_id": eng_edits_sheet_ID,
-        "folder_within_repo": folder_within_repo,
-        "languages": languages,
-        "length_threshold": length_threshold,
-        "localisation_sheet_id": localisation_sheet_ID,
-        "model": model,
-        "qr_treatment": qr_treatment,
-        "redirect_flow_names": redirect_flow_names,
-        "select_phrases": select_phrases,
-        #"sg_flow_id": "b83315a6-b25c-413a-9aa0-953bf60f223c",
-        #"sg_flow_name": "safeguarding_wfr_interaction",
-        "sg_sources": [
+        "meta": {
+            "pipeline_version": "1.0.0",  # version of the pipeline (and thus config format) to be used
+            "version": "1.2.3"  # version of the config itself
+        },
+        "parents": [
             {
-               "key": "fra",
-               "path": "excel_files/safeguarding crisis.xlsx",
+                "repo_url": "",
+                "commit_hash": "",
+                "commit_tag": ""  # instead of commit_hash, to refer to a commit by tag
             }
         ],
-        "sources": sources,
-        "special_expiration": special_expiration,
-        "special_words": special_words,
-        "translation_repo": translation_repo,
-        "transl_edits_sheet_id": transl_edits_sheet_ID,
+        # The name prefix that will be used in filenames during processing.
+        "flows_outputbasename": "parenttext_all",
+        # Number of files to split the output into
+        "output_split_number": 1,
+        "sources": {
+            # "flow_file": {
+            #     "format": "json",
+            #     "files_dict": {
+            #         "flows": "path/to/file/input_flows.json",
+            #     }
+            # },
+            "flow_definitions": {
+                "format": "sheets",
+                "subformat": "google_sheets",
+                # Name of the Python module containing data models describing the data sheets
+                "files_list": creation_spreadsheet_ids,
+                # "archive": "parenttext_all.zip",
+                #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
+            },
+            "edits_pretranslation": {
+                "format": "sheets",
+                "subformat": "google_sheets",
+                "files_list": [
+                    ab_testing_sheet_ID,
+                    localisation_sheet_ID,
+                ],
+            },
+            "edits_posttranslation": {
+                "format": "sheets",
+                "subformat": "google_sheets",
+                "files_list": [
+                    transl_edits_sheet_ID,
+                    eng_edits_sheet_ID,
+                ],
+            },
+            "translation": {
+                "format": "translation_repo",
+                "translation_repo": translation_repo,
+                "folder_within_repo": folder_within_repo,
+                "commit_hash": "",
+                "commit_tag": "",  # instead of commit_hash, to refer to a commit by tag
+                "languages": languages,
+            },
+            "expiration_times": {
+                "format": "json",
+                "files_dict": {
+                    # name of JSON file mapping flow names to expiration times
+                    "special_expiration_file": special_expiration,
+                }
+            },
+            "qr_treatment": {
+                "format": "json",
+                "files_dict": {
+                    # Path to file with the default phrase (including translations) we want to add if quick replies are being moved to message text.
+                    "select_phrases_file": select_phrases,
+                    # Path to file containing words (including translations) we always want to keep as full quick replies.  
+                    "special_words_file": special_words,
+                }
+            },
+            "safeguarding": {
+                # Hopefully to be deprecated soon
+                "format": "safeguarding",
+                # "filepath": None,
+                "sources" : [
+                    {
+                        "key": "fra",
+                        "path": "excel_files/safeguarding crisis.xlsx",
+                    }
+                ],
+            },
+            "goals_api": {   
+                "format": "sheets",
+                "subformat": "google_sheets",
+                # TODO: This is for WashText, put the correct ID here for crisis
+                "files_list": {"1TJ1YVSu87ubc5GvGea2hfRh4v234OyJUccQnZ90VUP4"}
+            },
+        },
+        "steps": [
+            # {   
+            #     "id": "load_flows",
+            #     "type": "load_flows",
+            #     "sources": ["flow_file"],
+            # },
+            {   
+                "id": "create_flows",
+                "type": "create_flows",
+                "models_module": models,  # Name of the Python module containing data models describing the data sheets
+                "sources": ["flow_definitions"],
+                # "archive": "parenttext_all.zip",
+                #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
+                "tags": [4,"response"],
+                #"tags": [1,"onboarding",1, "safeguarding",1,"delivery",4,"response"],
+            },
+            {
+                "id": "update_expiration_times",
+                "type": "update_expiration_times",
+                "sources": ["expiration_times"],
+                "default_expiration_time": default_expiration,
+            },
+            # {   
+            #     "id": "split_attachments",
+            #     "type": "split_attachments",
+            # },
+            {   
+                "id": "edits_pretranslation",
+                "type": "edits",
+                "sources": ["edits_pretranslation"],
+            },
+            {
+                "id": "hasanyword_pretranslation",
+                "type": "has_any_word_check",
+            },
+            {
+                "id": "overall_integrity_check_pretranslation",
+                "type": "overall_integrity_check",
+            },
+            {
+                "id": "extract_texts_for_translators",
+                "type": "extract_texts_for_translators",
+            },
+            {   
+                "id": "translation",
+                "type": "translation",
+                "sources": ["translation"],
+                "languages": languages,
+            },
+            {   
+                "id": "edits_posttranslation",
+                "type": "edits",
+                "sources": ["edits_posttranslation"]
+            },
+            {
+                "id": "hasanyword_posttranslation",
+                "type": "has_any_word_check",
+            },
+            {
+                "id": "fix_arg_qr_translation",
+                "type": "fix_arg_qr_translation",
+            },
+            {
+                "id": "overall_integrity_check_posttranslation",
+                "type": "overall_integrity_check",
+            },
+            {
+                "id": "qr_treatment",
+                "type": "qr_treatment",
+                "sources": ["qr_treatment"],
+                # str: how to process quick replies
+                # move: Remove quick replies and add equivalents to them to the message text, and give numerical prompts to allow basic phone users to use the app.
+                # move_and_mod: As above but has additional functionality allowing you to replace phrases
+                # reformat: Reformat quick replies so that long ones are added to the message text, as above.
+                # reformat_china: Reformat quick replies to the standard as requested by China
+                # wechat: All quick replies moved to links in message text as can be used in WeChat
+                # none: Do nothing.
+                "qr_treatment": qr_treatment,  
+                # When qr_treatment is 'reformat', set limits on the number of quick replies that are processed.
+                # If the number of quick replies is below or equal to count_threshold then the quick replies are left in place.
+                "count_threshold": count_threshold,
+                # When qr_treatment is 'reformat', set limits on the number of quick replies that are processed.
+                # If the character-length of the longest quick reply is below or equal to length_threshold then the quick replies are left in place.
+                "length_threshold": length_threshold,
+                # If qr_treatment is 'move', add some basic numerical quick replies back in. Valid values are 'yes' or 'no'.
+                "add_selectors": add_selectors,
+            },
+            {   
+                "id": "safeguarding",
+                "type": "safeguarding",
+                "sources": ["safeguarding"],
+                # "flow_uuid": "b83315a6-b25c-413a-9aa0-953bf60f223c",
+                # "flow_name": "safeguarding_wfr_interaction",
+                "redirect_flow_names": redirect_flow_names,
+            }
+        ]
     }
+       

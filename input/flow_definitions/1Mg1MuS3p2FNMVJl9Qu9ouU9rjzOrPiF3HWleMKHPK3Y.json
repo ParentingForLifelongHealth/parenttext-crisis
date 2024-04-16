@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "response_menu_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "menu_data",
+        "data_model": "MenuModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": "response"
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "response_menu_blocks_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "menu_blocks_data",
+        "data_model": "MenuModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": "response"
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "response_review_skills_menu_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "review_skills_menu_data",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": "response"
+      }
+    ],
+    "response_menu_data": [
+      {
+        "ID": "main",
+        "message.text": "What would you like to do?",
+        "message.image": "",
+        "return_option.text": "",
+        "return_option.flow": "",
+        "options.1.text": "Review tips",
+        "options.1.flow": "review_skills_menu",
+        "options.2.text": "Change my settings        ",
+        "options.2.flow": "menu - settings",
+        "options.3.text": "Invite a friend to ParentText",
+        "options.3.flow": "share",
+        "options.4.text": "Get more help",
+        "options.4.flow": "safeguarding_help",
+        "options.5.text": "Watch a video about ParentText",
+        "options.5.flow": "menu_parenttext_instructions",
+        "options.6.text": "Exit menu",
+        "options.6.flow": "exit_menu",
+        "options.7.text": "",
+        "options.7.flow": "",
+        "options.8.text": "",
+        "options.8.flow": "",
+        "options.9.text": "",
+        "options.9.flow": ""
+      },
+      {
+        "ID": "settings",
+        "message.text": "What would you like to do?",
+        "message.image": "",
+        "return_option.text": "Return to Main Menu",
+        "return_option.flow": "menu - main",
+        "options.1.text": "Change my profile",
+        "options.1.flow": "menu - settings_profile",
+        "options.2.text": "Stop receiving the messages",
+        "options.2.flow": "menu_leave_programme",
+        "options.3.text": "",
+        "options.3.flow": "",
+        "options.4.text": "",
+        "options.4.flow": "",
+        "options.5.text": "",
+        "options.5.flow": "",
+        "options.6.text": "",
+        "options.6.flow": "",
+        "options.7.text": "",
+        "options.7.flow": "",
+        "options.8.text": "",
+        "options.8.flow": "",
+        "options.9.text": "",
+        "options.9.flow": ""
+      },
+      {
+        "ID": "settings_profile",
+        "message.text": "What would you like change?",
+        "message.image": "",
+        "return_option.text": "Return to Main Menu",
+        "return_option.flow": "menu - main",
+        "options.1.text": "Change my language",
+        "options.1.flow": "settings_profile - language",
+        "options.2.text": "Change the way I receive content",
+        "options.2.flow": "settings_profile - media",
+        "options.3.text": "Change my gender",
+        "options.3.flow": "settings_profile - gender",
+        "options.4.text": "",
+        "options.4.flow": "",
+        "options.5.text": "",
+        "options.5.flow": "",
+        "options.6.text": "",
+        "options.6.flow": "",
+        "options.7.text": "",
+        "options.7.flow": "",
+        "options.8.text": "",
+        "options.8.flow": "",
+        "options.9.text": "",
+        "options.9.flow": ""
+      },
+      {
+        "ID": "return_or_exit",
+        "message.text": "What would you like to do next?",
+        "message.image": "",
+        "return_option.text": "Return to Main Menu",
+        "return_option.flow": "menu - main",
+        "options.1.text": "Exit menu",
+        "options.1.flow": "exit_menu",
+        "options.2.text": "",
+        "options.2.flow": "",
+        "options.3.text": "",
+        "options.3.flow": "",
+        "options.4.text": "",
+        "options.4.flow": "",
+        "options.5.text": "",
+        "options.5.flow": "",
+        "options.6.text": "",
+        "options.6.flow": "",
+        "options.7.text": "",
+        "options.7.flow": "",
+        "options.8.text": "",
+        "options.8.flow": "",
+        "options.9.text": "",
+        "options.9.flow": ""
+      }
+    ],
+    "response_menu_blocks_data": [
+      {
+        "ID": "settings_profile",
+        "message.text": "What would you like to do?",
+        "message.image": "",
+        "return_option.text": "Return to Main Menu",
+        "return_option.flow": "menu - main",
+        "options.1.text": "Change other profile info",
+        "options.1.flow": "menu - settings_profile",
+        "options.2.text": "",
+        "options.2.flow": "",
+        "options.3.text": "",
+        "options.3.flow": "",
+        "options.4.text": "",
+        "options.4.flow": "",
+        "options.5.text": "",
+        "options.5.flow": "",
+        "options.6.text": "",
+        "options.6.flow": ""
+      }
+    ],
+    "response_review_skills_menu_data": [
+      {
+        "ID": "next_offer",
+        "msg": "What would you like to do next?"
+      },
+      {
+        "ID": "review_from_other_opt",
+        "msg": "NA"
+      },
+      {
+        "ID": "review_from_same_opt",
+        "msg": "Review a different tip"
+      },
+      {
+        "ID": "back_menu_opt",
+        "msg": "Return to Menu"
+      },
+      {
+        "ID": "exit_opt",
+        "msg": "Exit menu"
+      },
+      {
+        "ID": "farewell",
+        "msg": "We hope this was helpful. You can access the Main Menu at any time by typing {MENU}. "
+      },
+      {
+        "ID": "completion_congrats",
+        "msg": "You've reached the end of today's tip. Well done for caring for your child during this challenging time. "
+      }
+    ]
+  }
+}
