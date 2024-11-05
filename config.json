@@ -32,7 +32,6 @@
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "N_onboarding_data",
                 "C_ltp_activities",
                 "C_modules_all_ages",
                 "N_safeguarding_data",
@@ -40,6 +39,14 @@
                 "N_menu_data_response",
                 "deployment_localised_sheets"
             ]
+        },
+        "csv_flow_definitions": {
+            "parent_sources": [],
+            "format": "sheets",
+            "subformat": "csv",
+            "files_dict": {
+                "safeguarding": "csv/onboarding"
+            }
         },
         "edits_pretranslation": {
             "parent_sources": [
@@ -103,7 +110,7 @@
             "id": "create_flows",
             "type": "create_flows",
             "models_module": "models.parenttext_models",
-            "sources": ["flow_definitions"],
+            "sources": ["flow_definitions","csv_flow_definitions"],
             "tags": []
         },
         {
