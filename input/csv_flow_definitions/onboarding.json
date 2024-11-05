@@ -3,6 +3,108 @@
     "version": "0.1.0"
   },
   "sheets": {
+    "consent_data": [
+      {
+        "ID": "intro",
+        "msg": "The tips you will receive in this programme have been developed by UNICEF, UNHCR, and the Global Initiative to Support Parents. ",
+        "metadata.description": ""
+      },
+      {
+        "ID": "info",
+        "msg": "✅Participating in ParentText is optional. \n✅Your personal information is safe and private. Your name and information will not be public, but your responses will be kept and used by researchers to learn how to support families like yours.  They plan to publish the results. \n❌You can stop when you want. Just type {STOP}",
+        "metadata.description": "{STOP} placeholder: do not edit\n{consent_link} placeholder: do not edit"
+      },
+      {
+        "ID": "agree_instructions",
+        "msg": "Press YES if you agree with this. Type \"EXIT\" if you do not want to participate. ",
+        "metadata.description": "YES needs to be consistent with \"yes_option\"\nEXIT needs to be consistent with \"exit_option\""
+      },
+      {
+        "ID": "yes_option",
+        "msg": "YES",
+        "metadata.description": "needs to be consistent with \"agree_instructions\""
+      },
+      {
+        "ID": "exit_option",
+        "msg": "EXIT",
+        "metadata.description": "needs to be consistent with \"agree_instructions\""
+      },
+      {
+        "ID": "exit_message",
+        "msg": "Are you sure you do not want to get these messages? If you do not want to receive any more messages, please type NO. If you made a mistake, please press BACK and choose another option.",
+        "metadata.description": "BACK needs to be consistent with \"back_option\"\nNO needs to be consistent with \"stop_option\""
+      },
+      {
+        "ID": "back_option",
+        "msg": "BACK",
+        "metadata.description": "needs to be consistent with \"exit_message\""
+      },
+      {
+        "ID": "stop_option",
+        "msg": "NO",
+        "metadata.description": "needs to be consistent with \"exit_message\""
+      },
+      {
+        "ID": "goodbye_msg",
+        "msg": "If you ever return to participate in the programme, type HELLO. \n\nWe hope to see you again soon, and we wish you a happy and peaceful day! ",
+        "metadata.description": "HELLO can be anything"
+      },
+      {
+        "ID": "agreement_thanks",
+        "msg": "That is wonderful, thank you so much! ",
+        "metadata.description": ""
+      },
+      {
+        "ID": "age_confirmation",
+        "msg": "Can you please confirm that you are 18 years old or older?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "above_age_opt",
+        "msg": "Yes, I am over 18",
+        "metadata.description": ""
+      },
+      {
+        "ID": "above_age_opt_aliases",
+        "msg": "yes y over",
+        "metadata.description": "what is accepted if they want to select \"above_age_opt\""
+      },
+      {
+        "ID": "below_age_opt",
+        "msg": "No, I am under 18",
+        "metadata.description": "what is accepted if they want to select \"below_age_opt\""
+      },
+      {
+        "ID": "below_age_opt_aliases",
+        "msg": "no n under",
+        "metadata.description": ""
+      },
+      {
+        "ID": "above_age_msg",
+        "msg": "Let's begin. ",
+        "metadata.description": ""
+      },
+      {
+        "ID": "below_age_confirm",
+        "msg": "Sorry, ParentText is only for people over the age of 18. Do you confirm that you are under the age of 18?",
+        "metadata.description": ""
+      },
+      {
+        "ID": "below_age_yes",
+        "msg": "Yes",
+        "metadata.description": ""
+      },
+      {
+        "ID": "below_age_no",
+        "msg": "No",
+        "metadata.description": ""
+      },
+      {
+        "ID": "below_age_msg",
+        "msg": "If you want to experience ParentText, you can always share it with your parents or caregivers who are over the age of 18.\n{insert link}",
+        "metadata.description": ""
+      }
+    ],
     "content_index": [
       {
         "type": "data_sheet",
@@ -127,108 +229,6 @@
         "options.5.value": "",
         "options.6.text": "",
         "options.6.value": ""
-      }
-    ],
-    "consent_data": [
-      {
-        "ID": "intro",
-        "msg": "The tips you will receive in this programme have been developed by UNICEF, UNHCR, and the Global Initiative to Support Parents. ",
-        "metadata.description": ""
-      },
-      {
-        "ID": "info",
-        "msg": "✅Participating in ParentText is optional. \n✅Your personal information is safe and private. Your name and information will not be public, but your responses will be kept and used by researchers to learn how to support families like yours.  They plan to publish the results. \n❌You can stop when you want. Just type {STOP}",
-        "metadata.description": "{STOP} placeholder: do not edit\n{consent_link} placeholder: do not edit"
-      },
-      {
-        "ID": "agree_instructions",
-        "msg": "Press YES if you agree with this. Type \"EXIT\" if you do not want to participate. ",
-        "metadata.description": "YES needs to be consistent with \"yes_option\"\nEXIT needs to be consistent with \"exit_option\""
-      },
-      {
-        "ID": "yes_option",
-        "msg": "YES",
-        "metadata.description": "needs to be consistent with \"agree_instructions\""
-      },
-      {
-        "ID": "exit_option",
-        "msg": "EXIT",
-        "metadata.description": "needs to be consistent with \"agree_instructions\""
-      },
-      {
-        "ID": "exit_message",
-        "msg": "Are you sure you do not want to get these messages? If you do not want to receive any more messages, please type NO. If you made a mistake, please press BACK and choose another option.",
-        "metadata.description": "BACK needs to be consistent with \"back_option\"\nNO needs to be consistent with \"stop_option\""
-      },
-      {
-        "ID": "back_option",
-        "msg": "BACK",
-        "metadata.description": "needs to be consistent with \"exit_message\""
-      },
-      {
-        "ID": "stop_option",
-        "msg": "NO",
-        "metadata.description": "needs to be consistent with \"exit_message\""
-      },
-      {
-        "ID": "goodbye_msg",
-        "msg": "If you ever return to participate in the programme, type HELLO. \n\nWe hope to see you again soon, and we wish you a happy and peaceful day! ",
-        "metadata.description": "HELLO can be anything"
-      },
-      {
-        "ID": "agreement_thanks",
-        "msg": "That is wonderful, thank you so much! ",
-        "metadata.description": ""
-      },
-      {
-        "ID": "age_confirmation",
-        "msg": "Can you please confirm that you are 18 years old or older?",
-        "metadata.description": ""
-      },
-      {
-        "ID": "above_age_opt",
-        "msg": "Yes, I am over 18",
-        "metadata.description": ""
-      },
-      {
-        "ID": "above_age_opt_aliases",
-        "msg": "yes y over",
-        "metadata.description": "what is accepted if they want to select \"above_age_opt\""
-      },
-      {
-        "ID": "below_age_opt",
-        "msg": "No, I am under 18",
-        "metadata.description": "what is accepted if they want to select \"below_age_opt\""
-      },
-      {
-        "ID": "below_age_opt_aliases",
-        "msg": "no n under",
-        "metadata.description": ""
-      },
-      {
-        "ID": "above_age_msg",
-        "msg": "Let's begin. ",
-        "metadata.description": ""
-      },
-      {
-        "ID": "below_age_confirm",
-        "msg": "Sorry, ParentText is only for people over the age of 18. Do you confirm that you are under the age of 18?",
-        "metadata.description": ""
-      },
-      {
-        "ID": "below_age_yes",
-        "msg": "Yes",
-        "metadata.description": ""
-      },
-      {
-        "ID": "below_age_no",
-        "msg": "No",
-        "metadata.description": ""
-      },
-      {
-        "ID": "below_age_msg",
-        "msg": "If you want to experience ParentText, you can always share it with your parents or caregivers who are over the age of 18.\n{insert link}",
-        "metadata.description": ""
       }
     ]
   }

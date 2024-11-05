@@ -154,7 +154,7 @@
       {
         "ID": "final_completion",
         "msg": "You have completed the programme. Well done!\nRemember, you can always return to ParentText to review these tips. Just type {MENU}.",
-        "extra_msg": ""
+        "extra_msg": "Was ParentText helpful? If so, share it with a friend. Just send this link: {insert link}"
       }
     ],
     "make_options_wrapper_data": [

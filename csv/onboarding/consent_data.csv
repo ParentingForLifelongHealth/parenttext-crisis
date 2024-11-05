@@ -1,0 +1,29 @@
+ID,msg,metadata.description
+intro,"The tips you will receive in this programme have been developed by UNICEF, UNHCR, and the Global Initiative to Support Parents. ",
+info,"✅Participating in ParentText is optional. 
+✅Your personal information is safe and private. Your name and information will not be public, but your responses will be kept and used by researchers to learn how to support families like yours.  They plan to publish the results. 
+❌You can stop when you want. Just type {STOP}","{STOP} placeholder: do not edit
+{consent_link} placeholder: do not edit"
+agree_instructions,"Press YES if you agree with this. Type ""EXIT"" if you do not want to participate. ","YES needs to be consistent with ""yes_option""
+EXIT needs to be consistent with ""exit_option"""
+yes_option,YES,"needs to be consistent with ""agree_instructions"""
+exit_option,EXIT,"needs to be consistent with ""agree_instructions"""
+exit_message,"Are you sure you do not want to get these messages? If you do not want to receive any more messages, please type NO. If you made a mistake, please press BACK and choose another option.","BACK needs to be consistent with ""back_option""
+NO needs to be consistent with ""stop_option"""
+back_option,BACK,"needs to be consistent with ""exit_message"""
+stop_option,NO,"needs to be consistent with ""exit_message"""
+goodbye_msg,"If you ever return to participate in the programme, type HELLO. 
+
+We hope to see you again soon, and we wish you a happy and peaceful day! ",HELLO can be anything
+agreement_thanks,"That is wonderful, thank you so much! ",
+age_confirmation,Can you please confirm that you are 18 years old or older?,
+above_age_opt,"Yes, I am over 18",
+above_age_opt_aliases,yes y over,"what is accepted if they want to select ""above_age_opt"""
+below_age_opt,"No, I am under 18","what is accepted if they want to select ""below_age_opt"""
+below_age_opt_aliases,no n under,
+above_age_msg,Let's begin. ,
+below_age_confirm,"Sorry, ParentText is only for people over the age of 18. Do you confirm that you are under the age of 18?",
+below_age_yes,Yes,
+below_age_no,No,
+below_age_msg,"If you want to experience ParentText, you can always share it with your parents or caregivers who are over the age of 18.
+{insert link}",

@@ -1,0 +1,3 @@
+ID,msg,next_button_option,metadata.description
+onboarding_welcome_msg,Welcome to ParentText. Every parent everywhere needs support. We hope we can help. ,,first message after language selection (if present)
+orientation,Here is a video that shows how to use ParentText.,NEXT,message with onboarding video

@@ -159,6 +159,36 @@
         "token": ""
       }
     ],
+    "local_triggers": [
+      {
+        "type": "K",
+        "keywords": "aide",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "arrêt",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "jouer",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "commencer",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      }
+    ],
     "wa_templates": [
       {
         "ID": "daily_interaction",
@@ -194,36 +224,6 @@
         "ID": "complete_start_module",
         "name": "complete_start_module",
         "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4090"
-      }
-    ],
-    "local_triggers": [
-      {
-        "type": "K",
-        "keywords": "aide",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "arrêt",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "jouer",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
-      },
-      {
-        "type": "K",
-        "keywords": "commencer",
-        "match_type": "O",
-        "flow": "uncaught_message_flow",
-        "groups": ""
       }
     ],
     "settings_lang_profile_data": [

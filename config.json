@@ -45,7 +45,7 @@
             "format": "sheets",
             "subformat": "csv",
             "files_dict": {
-                "safeguarding": "csv/onboarding"
+                "onboarding": "csv/onboarding"
             }
         },
         "edits_pretranslation": {
