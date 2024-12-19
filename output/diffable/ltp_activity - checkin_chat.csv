@@ -1,8 +1,0 @@
-row_id,type,edges.1.from,message_text
-msg.Check-in_ChatAc,send_message,start,"*Check-in Chat*
-
-Actively checking in on one another helps to keep relationships healthy! ⭐
-Ask each other questions like: “What made you happy today?” 👂 “What was difficult today?” 👂 “How can I help you?” 👂
-For this to help, your children need to feel safe while sharing things with you. Be open to their responses. 💚"
-msg.Older_children_,send_message,msg.Check-in_ChatAc,"Older children tend to be more honest when they trust that what they say will not be used against them later.
-Be kind to yourself if your children do not want to share their problems with you. 💙 Often, children are afraid to share as they are scared they will get in trouble. Getting upset with them won’t help - keep showing you love them and give them time! 🌷"

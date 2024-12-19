@@ -1,8 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name,choices.1,choices.2
-msg.Are_you_current,send_message,start,,Are you currently experiencing a health issue?,,Yes,No
-switch.input_text,wait_for_response,msg.Are_you_current,,,,,
-flow.safeguarding_re,start_new_flow,switch.input_text,value;yes y yeah yep|variable;@input.text|type;has_any_word|name;Yes,safeguarding_referrals - health,,,
-msg.Type_HELP_at_an,send_message,switch.input_text,value;no n nope|variable;@input.text|type;has_any_word|name;No,Type HELP at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!,,,
-set_run_result.proceed,save_flow_result,msg.Type_HELP_at_an,,yes,proceed,,
-msg.Sorry_I_dont_un,send_message,switch.input_text,,"Sorry, I don't understand what you mean.",,,
-goto.msg.Are_you_current,go_to,msg.Sorry_I_dont_un,,msg.Are_you_current|,,,

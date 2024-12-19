@@ -1,6 +1,0 @@
-row_id,type,edges.1.from,edges.2.from,edges.1.condition,message_text,save_name
-switch.fields_gender,split_by_value,start,,,@fields.gender,
-set_contact_field.attachment_gend,save_value,switch.fields_gender,,value;woman no|variable;@fields.gender|type;has_any_word|name;woman,female,attachment gender
-set_contact_field.attachment_gend.1,save_value,switch.fields_gender,,,male,attachment gender
-set_contact_field.voiceover_video,save_value,set_contact_field.attachment_gend,set_contact_field.attachment_gend.1,,"@(fields.path & ""voiceover/resourceType/video/gender/"" & fields.attachment_gender & ""/language/"" & contact.language & ""/"")",voiceover video path
-set_contact_field.voiceover_audio,save_value,set_contact_field.voiceover_video,,,"@(fields.path & ""voiceover/resourceType/audio/gender/"" & fields.attachment_gender & ""/language/"" & contact.language & ""/"")",voiceover audio path

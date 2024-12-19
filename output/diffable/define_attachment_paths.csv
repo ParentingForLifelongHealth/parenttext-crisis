@@ -1,7 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name
-set_contact_field.path,save_value,start,"@(""https://idems-media-recorder.web.app/storage/project/PLH/subproject/ParentText_v2/deployment/"" & fields.deployment & ""/resourceGroup/"")",path
-set_contact_field.image_path,save_value,set_contact_field.path,"@(fields.path & ""image/universal/"")",image path
-set_contact_field.comic_path,save_value,set_contact_field.image_path,"@(fields.path & ""comic/"")",comic path
-set_contact_field.voiceover_video,save_value,set_contact_field.comic_path,"@(fields.path & ""voiceover/resourceType/video/gender/"" & fields.attachment_gender & ""/language/"" & contact.language & ""/"")",voiceover video path
-set_contact_field.voiceover_audio,save_value,set_contact_field.voiceover_video,"@(fields.path & ""voiceover/resourceType/audio/gender/"" & fields.attachment_gender & ""/language/"" & contact.language & ""/"")",voiceover audio path
-set_contact_field.reward_path,save_value,set_contact_field.voiceover_audio,"@(fields.path & ""reward/"")",reward path

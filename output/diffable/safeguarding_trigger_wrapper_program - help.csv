@@ -1,9 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-set_contact_field.bugfix,save_value,start,,x,bugfix
-switch.fields_complete,split_by_value,set_contact_field.bugfix,,@fields.completed_onboarding,
-msg.This_feature_wi,send_message,switch.fields_complete,value;no|variable;@fields.completed_onboarding|type;has_any_word|name;not completed onboarding,This feature will be available once you have completed registration. It won’t take long. Please continue your progress!,
-flow.timed_programme,start_new_flow,msg.This_feature_wi,,timed_programme_wrapper_not_timed,
-switch.fields_selected,split_by_value,switch.fields_complete,,@fields.selected_first_goal,
-flow.safeguarding_he,start_new_flow,switch.fields_selected,value;yes|variable;@fields.selected_first_goal|type;has_any_word|name;selected first goal,safeguarding_help,
-msg.This_feature_wi.1,send_message,switch.fields_selected,,This feature will be available once you have completed registration. It won’t take long. Please continue your progress!,
-flow.timed_programme.1,start_new_flow,msg.This_feature_wi.1,,timed_programme_wrapper_not_timed,

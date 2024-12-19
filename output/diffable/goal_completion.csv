@@ -1,3 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-flow.update_prog_var,start_new_flow,start,,update_prog_var_end_goal,
-set_contact_field.bugfix,save_value,flow.update_prog_var,value;completed|,x,bugfix

@@ -1,4 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-flow.pause_-_breath_,start_new_flow,start,,pause - breath_body_awareness,
-flow.module_-_protec,start_new_flow,flow.pause_-_breath_,value;completed|,module - protect_from_traffickers,
-set_run_result.status,save_flow_result,flow.module_-_protec,value;completed|,not_expired,status

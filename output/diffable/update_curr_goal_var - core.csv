@@ -1,9 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name
-set_contact_field.c_mod_to_start,save_value,start,@fields.goal_core_mod_to_start,c mod to start
-set_contact_field.c_mod_started,save_value,set_contact_field.c_mod_to_start,@fields.goal_core_mod_started,c mod started
-set_contact_field.c_mod_compl,save_value,set_contact_field.c_mod_started,@fields.goal_core_mod_compl,c mod compl
-set_contact_field.c_checkins_to_s,save_value,set_contact_field.c_mod_compl,@fields.goal_core_checkins_to_start,c checkins to start
-set_contact_field.c_n_mod,save_value,set_contact_field.c_checkins_to_s,@fields.goal_core_n_mod,c n mod
-set_contact_field.c_n_mod_compl,save_value,set_contact_field.c_n_mod,@fields.goal_core_n_mod_compl,c n mod compl
-set_contact_field.c_n_mod_started,save_value,set_contact_field.c_n_mod_compl,@fields.goal_core_n_mod_started,c n mod started
-set_contact_field.c_goal_checkin_,save_value,set_contact_field.c_n_mod_started,@fields.goal_core_checkin_id,c goal checkin id

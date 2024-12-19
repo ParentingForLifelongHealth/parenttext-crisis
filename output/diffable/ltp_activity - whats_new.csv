@@ -1,9 +1,0 @@
-row_id,type,edges.1.from,message_text
-msg.Whats_NewLearni,send_message,start,"*What’s New?*
-
-Learning is fun! 🎓
-
-❓ Ask your children to think of a new, fun skill you could learn together. 
-For example, keeping a ball in the air with your foot, learning dance steps, cooking a simple meal together, practising local language phrases, sharing stories from your culture, playing local games and sports, or learning about all the countries in your region."
-msg._Take_turns_try,send_message,msg.Whats_NewLearni,"🔄 Take turns trying out the new skill. Make sure to praise each other and learn and play together!
-💛 Approach learning the skill in a kind and fun way, and do not judge your children or yourself for your ability in the skill."

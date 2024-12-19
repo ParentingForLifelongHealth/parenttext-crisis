@@ -1,5 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name
-set_run_result.timediff,save_flow_result,start,"@(datetime_diff(split(fields.time_last_goal_completed,""|"")[0], now(), ""m""))",timediff
-switch.results_timedif,split_by_value,set_run_result.timediff,@results.timediff,
-set_contact_field.from_timed,save_value,switch.results_timedif,yes,from timed
-flow.timed_programme,start_new_flow,set_contact_field.from_timed,timed_programme,

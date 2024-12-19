@@ -1,7 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,edges.2.from,edges.2.condition,message_text,save_name
-switch.fields_from_tim,split_by_value,start,,,,@fields.from_timed,
-set_run_result.proceed,save_flow_result,switch.fields_from_tim,value;no|variable;@fields.from_timed|type;has_any_word|name;No,,,yes,proceed
-switch.fields_selected,split_by_value,switch.fields_from_tim,,,,@fields.selected_first_goal,
-flow.interaction_-_s,start_new_flow,switch.fields_selected,value;yes|variable;@fields.selected_first_goal|type;has_any_word|name;selected 1st goal,,,interaction - select_goal,
-flow.interaction_-_u,start_new_flow,switch.fields_selected,,,,interaction - unfinished_onboarding,
-set_run_result.proceed.1,save_flow_result,flow.interaction_-_s,value;completed|,flow.interaction_-_u,value;completed|,@child.results.proceed,proceed

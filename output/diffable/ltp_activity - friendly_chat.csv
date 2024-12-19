@@ -1,9 +1,0 @@
-row_id,type,edges.1.from,message_text
-msg.A_Friendly_Chat,send_message,start,"*A Friendly Chat*
-
-Talk to your children about something that they are interested in! 😃
-
-⚽ An easy way to start talking to your children is to ask them about something they are interested in. For example, you could talk about local stories, traditions, sports, favourite books, movies, friends, music, famous people or school-related topics."
-msg._You_may_not_fi,send_message,msg.A_Friendly_Chat,"👂 You may not find everything your children share to be interesting, but it’s important to show enthusiasm and an eagerness to learn. 
-
-Paying attention to what matters to your children can make a big difference in your relationship and their happiness."

@@ -1,8 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-random,split_random,start,,,
-flow.pause_review_-_,start_new_flow,random,value;1|,pause_review - breath_body_awareness,
-set_run_result.status,save_flow_result,flow.pause_review_-_,value;completed|,not_expired,status
-flow.pause_review_-_.1,start_new_flow,random,value;2|,pause_review - body_scan,
-set_run_result.status.1,save_flow_result,flow.pause_review_-_.1,value;completed|,not_expired,status
-flow.pause_review_-_.2,start_new_flow,random,value;3|,pause_review - loving_kindness meditation,
-set_run_result.status.2,save_flow_result,flow.pause_review_-_.2,value;completed|,not_expired,status

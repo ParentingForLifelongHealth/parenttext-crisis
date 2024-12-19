@@ -1,6 +1,0 @@
-row_id,type,edges.1.from,no_response,edges.1.condition,message_text,choices.1
-switch.fields_c_n_mod_,split_by_value,start,,,@(fields.c_n_mod - fields.c_n_mod_compl),
-msg.There_are_field,send_message,switch.fields_c_n_mod_,,value;2|variable;@(fields.c_n_mod - fields.c_n_mod_compl)|type;has_number_gte|name;multiple left,There are @(fields.c_n_mod - fields.c_n_mod_compl) more tips. You'll receive a new one tomorrow. ,NEXT
-wait_for.input_text,wait_for_response,msg.There_are_field,60,,,
-msg.There_is_one_mo,send_message,switch.fields_c_n_mod_,,value;1|variable;@(fields.c_n_mod - fields.c_n_mod_compl)|type;has_number_eq|name;one left,There is one more tip. You'll receive it tomorrow. ,NEXT
-wait_for.input_text.1,wait_for_response,msg.There_is_one_mo,60,,,

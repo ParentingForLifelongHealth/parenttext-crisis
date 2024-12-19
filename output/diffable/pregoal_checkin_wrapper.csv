@@ -1,5 +1,0 @@
-row_id,type,edges.1.from,message_text,choices.1,save_name
-set_contact_field.completed_pre_g,save_value,start,yes,,completed pre goal checkin
-msg.Lets_get_starte,send_message,set_contact_field.completed_pre_g,Let’s get started. Press NEXT to begin.,NEXT,
-switch.input_text,wait_for_response,msg.Lets_get_starte,,,
-set_run_result.proceed,save_flow_result,switch.input_text,yes,,proceed

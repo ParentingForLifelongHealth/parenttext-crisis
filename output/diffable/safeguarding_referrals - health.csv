@@ -1,4 +1,0 @@
-row_id,type,edges.1.from,message_text
-msg.Here_are_some_s,send_message,start,Here are some services that might be able to help: 
-msg.Local_numbers_f,send_message,msg.Here_are_some_s,Local numbers for emergency medical care can go here. This content is localised prior to deployment.
-msg.Type_HELP_at_an,send_message,msg.Local_numbers_f,Type HELP at any time if you would like the details of emergency services or other hotlines. Remember everything you say will be completely private!

@@ -1,5 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-switch.fields_from_tim,split_by_value,start,,@fields.from_timed,
-flow.interaction_-_u,start_new_flow,switch.fields_from_tim,value;yes|variable;@fields.from_timed|type;has_any_word|name;from campaign,interaction - unfinished_onboarding,
-set_run_result.proceed,save_flow_result,flow.interaction_-_u,value;completed|,@child.results.proceed,proceed
-set_run_result.proceed.1,save_flow_result,switch.fields_from_tim,,yes,proceed

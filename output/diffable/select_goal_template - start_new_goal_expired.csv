@@ -1,6 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-flow.make_options_wr,start_new_flow,start,,make_options_wrapper - start_new_goal_expired,
-flow.update_prog_var,start_new_flow,flow.make_options_wr,value;completed|,update_prog_var_start_goal,
-flow.split_by_id_tem,start_new_flow,flow.update_prog_var,value;completed|,split_by_id_template - goal_set_up_var,
-flow.description_new,start_new_flow,flow.split_by_id_tem,value;completed|,description_new_goal,
-set_run_result.proceed,save_flow_result,flow.description_new,value;completed|,yes,proceed

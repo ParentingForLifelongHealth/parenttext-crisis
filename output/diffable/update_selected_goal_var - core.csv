@@ -1,4 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name
-set_contact_field.s_modules_compl,save_value,start,@fields.goal_core_mod_compl,s modules compl
-set_contact_field.n_s_modules_com,save_value,set_contact_field.s_modules_compl,@fields.goal_core_n_mod_compl,n s modules compl
-set_contact_field.n_s_modules,save_value,set_contact_field.n_s_modules_com,@fields.goal_core_n_mod,n s modules

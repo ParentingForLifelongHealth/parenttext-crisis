@@ -1,3 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-switch.fields_pre_goal,split_by_value,start,,@fields.pre_goal_checkin_compl,
-set_contact_field.completed_pre_g,save_value,switch.fields_pre_goal,value;@fields.curr_goal|variable;@fields.pre_goal_checkin_compl|type;has_pattern|name;already compl,yes,completed pre goal checkin

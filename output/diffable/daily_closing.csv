@@ -1,5 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-flow.completion_trac,start_new_flow,start,,completion_tracker,
-set_contact_field.bugfix,save_value,flow.completion_trac,value;completed|,x,bugfix
-flow.activity_offer_,start_new_flow,set_contact_field.bugfix,,activity_offer - timed_programme,
-set_contact_field.bugfix.1,save_value,flow.activity_offer_,value;completed|,x,bugfix

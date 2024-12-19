@@ -1,4 +1,0 @@
-row_id,type,edges.1.from,message_text
-msg.To_invite_someo,send_message,start,"To invite someone to join, share this link!
-https://wa.me/14156399477/?text=start"
-flow.menu_-_return_o,start_new_flow,msg.To_invite_someo,menu - return_or_exit

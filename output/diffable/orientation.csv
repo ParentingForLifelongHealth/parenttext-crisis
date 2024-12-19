@@ -1,7 +1,0 @@
-row_id,type,edges.1.from,edges.2.from,edges.3.from,no_response,edges.1.condition,message_text,choices.1,video,save_name
-set_contact_field.completed_orien,save_value,start,,,,,yes,,,completed orientation
-switch.fields_age_grou,split_by_value,set_contact_field.completed_orien,,,,,@fields.age_group_for_tips,,,
-msg.Here_is_a_video,send_message,switch.fields_age_grou,,,,value;teen|variable;@fields.age_group_for_tips|type;has_any_word|name;teen,Here is a video that shows how to use ParentText.,NEXT,"@(fields.voiceover_video_path & ""onboarding_t.mp4"")",
-msg.Here_is_a_video.1,send_message,switch.fields_age_grou,,,,value;baby|variable;@fields.age_group_for_tips|type;has_any_word|name;baby,Here is a video that shows how to use ParentText.,NEXT,"@(fields.voiceover_video_path & ""onboarding_b.mp4"")",
-msg.Here_is_a_video.2,send_message,switch.fields_age_grou,,,,,Here is a video that shows how to use ParentText.,NEXT,"@(fields.voiceover_video_path & ""onboarding.mp4"")",
-wait_for.input_text,wait_for_response,msg.Here_is_a_video,msg.Here_is_a_video.1,msg.Here_is_a_video.2,300,,,,,

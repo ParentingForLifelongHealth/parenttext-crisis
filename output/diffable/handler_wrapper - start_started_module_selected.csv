@@ -1,6 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-flow.make_options_wr,start_new_flow,start,,make_options_wrapper - start_started_module_daily,
-flow.split_by_id_tem,start_new_flow,flow.make_options_wr,value;completed|,split_by_id_template - content_pause,
-switch.child_results_s,split_by_value,flow.split_by_id_tem,value;completed|,@child.results.status,
-flow.split_by_id_tem.1,start_new_flow,switch.child_results_s,value;not_expired|variable;@child.results.status|type;has_any_word|name;Not_Expired,split_by_id_template - goal_end_module,
-set_run_result.status,save_flow_result,flow.split_by_id_tem.1,value;completed|,not_expired,status

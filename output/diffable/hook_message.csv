@@ -1,4 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name,wa_template.name,wa_template.uuid,choices.1
-msg.This_time_is_di,send_message,start,"This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1. ",,no_response,41bc4999-915f-443c-854c-b17a90c82ce0,1
-add_contact_groups.passive_drop_ou,add_to_group,msg.This_time_is_di,passive drop out|,,,,
-set_contact_field.hook_message,save_value,add_contact_groups.passive_drop_ou,@(fields.hook_message & now()),hook message,,,

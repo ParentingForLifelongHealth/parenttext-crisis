@@ -1,8 +1,0 @@
-row_id,type,edges.1.from,message_text
-msg.Animals_Active_,send_message,start,"*Animals*
-
-🧸 *Active Animals* 
-Take turns with your children doing animal actions. You might hop like a frog, stretch like a cat, run like a dog, slither like a snake, or flap like a bird. Add your own actions and animals!"
-msg.All_the_Animals,send_message,msg.Animals_Active_,"💡*All the Animals We Can Think Of* 
-Think about groups of animals and talk about them with your children! 
-What are all the animals we can think of that have feathers? What are all the animals we can think of that eat plants? 🌱 What animals can we think of that lay eggs?"

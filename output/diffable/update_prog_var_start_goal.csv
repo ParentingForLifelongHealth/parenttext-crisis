@@ -1,7 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name
-set_contact_field.goals_to_start,save_value,start,"@(replace(fields.goals_to_start, fields.curr_goal,""""))",goals to start
-set_contact_field.goals_started,save_value,set_contact_field.goals_to_start,"@(fields.goals_started & "" "" & fields.curr_goal)",goals started
-set_contact_field.goals_accessed,save_value,set_contact_field.goals_started,"@(fields.goals_accessed & "" "" & fields.curr_goal)",goals accessed
-set_contact_field.n_goals_started,save_value,set_contact_field.goals_accessed,@(word_count(fields.goals_started)),n goals started
-set_contact_field.n_goals_to_star,save_value,set_contact_field.n_goals_started,@(word_count(fields.goals_to_start)),n goals to start
-set_contact_field.completed_pre_g,save_value,set_contact_field.n_goals_to_star,no,completed pre goal checkin

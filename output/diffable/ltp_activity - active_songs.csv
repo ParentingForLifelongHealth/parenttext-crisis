@@ -1,8 +1,0 @@
-row_id,type,edges.1.from,message_text
-msg.Active_Songs_Yo,send_message,start,"*Active Songs*
-
-😃 Young children love physical games but they need reminders about how to play. 💡
-🎵 Songs with movements are fun and active and give instructions on how to move!"
-msg.Sing_songs_to_y,send_message,msg.Active_Songs_Yo,"Sing songs to your children in which they have to follow instructions like:
-✅ Start and stop ❌
-⬇️ Slow down and speed up ⬆️"

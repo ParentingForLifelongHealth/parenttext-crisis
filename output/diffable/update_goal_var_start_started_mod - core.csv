@@ -1,2 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name
-set_contact_field.accessed_module,save_value,start,"@(word_slice(fields.goal_core_mod_started ,0,1))",accessed module

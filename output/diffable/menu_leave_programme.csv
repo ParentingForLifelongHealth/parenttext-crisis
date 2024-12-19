@@ -1,4 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text
-flow.safeguarding_le,start_new_flow,start,,safeguarding_leave_programme
-switch.contact_groups,split_by_group,flow.safeguarding_le,value;completed|,in program|
-flow.menu_-_settings,start_new_flow,switch.contact_groups,value;in program|,menu - settings

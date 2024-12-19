@@ -1,3 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text
-flow.orientation,start_new_flow,start,,orientation
-flow.menu_-_return_o,start_new_flow,flow.orientation,value;completed|,menu - return_or_exit

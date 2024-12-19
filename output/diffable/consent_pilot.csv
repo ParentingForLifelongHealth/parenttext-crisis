@@ -1,4 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name
-set_contact_field.completed_conse,save_value,start,yes,completed consent
-set_contact_field.consent,save_value,set_contact_field.completed_conse,yes,consent
-add_contact_groups.in_program,add_to_group,set_contact_field.consent,in program|,

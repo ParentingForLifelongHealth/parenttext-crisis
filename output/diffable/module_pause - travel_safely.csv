@@ -1,4 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-flow.pause_-_body_sc,start_new_flow,start,,pause - body_scan,
-flow.module_-_travel,start_new_flow,flow.pause_-_body_sc,value;completed|,module - travel_safely,
-set_run_result.status,save_flow_result,flow.module_-_travel,value;completed|,not_expired,status

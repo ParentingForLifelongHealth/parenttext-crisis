@@ -1,5 +1,0 @@
-row_id,type,edges.1.from,edges.1.condition,message_text,save_name
-flow.pre_goal_checki,start_new_flow,start,,pre_goal_checkin - stress,
-switch.child_results_s,split_by_value,flow.pre_goal_checki,value;completed|,@child.results.sg_back,
-set_contact_field.completed_progc,save_value,switch.child_results_s,,yes,completed progcheck
-set_run_result.proceed,save_flow_result,set_contact_field.completed_progc,,yes,proceed

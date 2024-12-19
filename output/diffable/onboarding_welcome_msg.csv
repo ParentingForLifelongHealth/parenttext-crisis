@@ -1,3 +1,0 @@
-row_id,type,edges.1.from,message_text,save_name
-msg.Welcome_to_Pare,send_message,start,Welcome to ParentText. Every parent everywhere needs support. We hope we can help. ,
-set_contact_field.completed_welco,save_value,msg.Welcome_to_Pare,yes,completed welcome msg
