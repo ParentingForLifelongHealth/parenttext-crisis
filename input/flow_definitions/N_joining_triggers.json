@@ -133,7 +133,7 @@
       {
         "ID": "vision",
         "Trigger (en)": "vision",
-        "Trigger (ar)": "تبصر",
+        "Trigger (ar)": "الرؤية",
         "Link (en)": "https://wa.me/447400410660?text=vision",
         "Link (ar)": "https://wa.me/447400410660?text=تبصر",
         "Experience (user group)": "digital",
@@ -327,7 +327,7 @@
       },
       {
         "ID": "vision",
-        "triggers": "vision;تبصر",
+        "triggers": "vision;الرؤية",
         "groups": "digital;WVI West Bank 2;reach",
         "cap": "250",
         "location": "West Bank"

@@ -1000,7 +1000,7 @@
         "node_identifier": "Regex:.*{share link}.*",
         "change": "{share link}",
         "condition_var": "",
-        "category": "https://wa.me/447400410660/?text=SHARE"
+        "category": "https://wa.me/@(replace(contact.channel.address,\"+\",\"\"))/?text=SHARE"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1029,7 +1029,7 @@
         "node_identifier": "Regex:.*{share link}.*",
         "original": "{share link}",
         "language": "ara",
-        "replacement": "https://wa.me/447400410660/?text=شارك"
+        "replacement": "https://wa.me/@(replace(contact.channel.address,\"+\",\"\"))/?text=شارك"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1038,7 +1038,7 @@
         "node_identifier": "Regex:.*{consent_link}.*",
         "original": "{consent_link}",
         "language": "ara",
-        "replacement": "https://bit.ly/4kFhNt5"
+        "replacement": "https://bit.ly/parenttext-consent-ar"
       },
       {
         "type_of_edit": "replace_bit_of_text",

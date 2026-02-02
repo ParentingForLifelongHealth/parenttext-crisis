@@ -102,8 +102,8 @@
     "note": ""
   },
   {
-    "SourceText": "📲 How would you prefer to receive content —through mostly text / images or with audio guides?",
-    "text": "📲 كيف بتحب ينبعتلك المحتوى — عن طريق النصوص والصور غالبًا أو مع إرشادات صوتية؟",
+    "SourceText": "📲 How would you prefer to receive content —through only text and images or with an additional audio guide?",
+    "text": "كيف تفضل تلقي المحتوى — عن طريق النصوص والصور فقط أو مع إرشادي صوتي إضافي؟ 📲",
     "type": "text",
     "note": ""
   },
@@ -198,14 +198,14 @@
     "note": ""
   },
   {
-    "SourceText": "Text / Images",
-    "text": "نص/ صور",
+    "SourceText": "Text and images only",
+    "text": "نص وصور فقط",
     "type": "quick_replies",
     "note": ""
   },
   {
-    "SourceText": "Audio",
-    "text": "ملف صوتي",
+    "SourceText": "Text, images, and audio",
+    "text": "نص وصور والصوت",
     "type": "quick_replies",
     "note": ""
   },
