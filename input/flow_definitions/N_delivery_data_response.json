@@ -153,8 +153,8 @@
     "congrats_data": [
       {
         "ID": "final_completion",
-        "msg": "You have completed the programme. Well done!\nRemember, you can always return to ParentText to review these tips. Just type {MENU}.",
-        "extra_msg": "Was ParentText helpful? If so, share it with a friend. Just send this link: {share link}"
+        "msg": "You’ve completed the programme – well done!\nRemember, you can always return to {prog_name} to review any of the tips. Just type {MENU}.\n\nWe’ll check in with you in a month to see how you’re doing. Your feedback helps us make sure these tips truly support families like yours 🙂",
+        "extra_msg": ""
       }
     ],
     "make_options_wrapper_data": [
@@ -177,7 +177,7 @@
       },
       {
         "ID": "choose_skill_to_review",
-        "list_var": "fields.s_modules_compl",
+        "list_var": "join(reverse(split(fields.s_modules_compl,\" \")), \" \")",
         "print_type": "module",
         "n_max_opt": "11",
         "msg_no_options.message": "You haven't received any tips yet. ",
@@ -206,105 +206,98 @@
     "wa_templates_META": [
       {
         "ID": "unfinished_onboarding",
-        "text": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now. \n\nPress a number on your keypad: \n1. Continue with my registration\n2. Remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "It’s a difficult moment for your family. I’m here today with a few tips to create small moments of connection with your child to give them the routine and stability you all need right now. \n\nPress a number on your keypad: \n1. Continue with my registration\n2. Remind me tomorrow",
+        "romanian": "Este un moment dificil pentru familia ta. Sunt aici azi pentru a-ți oferi câteva sfaturi care să te ajute să creezi mici momente de conectare cu copilul tău, pentru a-i oferi rutina și stabilitatea de care aveți cu toții nevoie în acest moment. \n\nApasă o cifră pe tastatură: \n1. Continuă înregistrarea\n2. Amintește-mi mâine"
       },
       {
         "ID": "unfinished_baseline",
-        "text": "It looks like you started answering some baseline questions but didn't get a chance to finish. Would you like to continue now and then we can move onto the tips?\n\nPress a number on your keypad: \n1. Continue my initial questions\n2. Remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "It looks like you started answering some baseline questions but didn't get a chance to finish. Would you like to continue now and then we can move onto the tips?\n\nPress a number on your keypad: \n1. Continue my initial questions\n2. Remind me tomorrow",
+        "romanian": "Pare că ai început să răspunzi la unele dintre întrebările inițiale, dar nu ai apucat să le finalizezi. Dorești să continui acum, pentru a putea trece după aceea la sfaturi?\n\nApasă o cifră pe tastatură: \n1. Continuă cu întrebările inițiale\n2. Amintește-mi mâine"
       },
       {
         "ID": "complete_start_module",
-        "text": "It looks like you started a tip, but didn't finish receiving all of the information. Would you like to finish it or start learning someting new?\n\nPress a number on your keypad: \n1. Finish the previous tip\n2. Receive a new tip\n3. Remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "It looks like you started a tip, but didn't finish receiving all of the information. Would you like to finish it or start learning someting new?\n\nPress a number on your keypad: \n1. Finish the previous tip\n2. Receive a new tip\n3. Remind me tomorrow",
+        "romanian": "Pare că ai început un sfat, dar nu ai terminat de primit toate informațiile. Dorești să îl finalizezi sau să începi să înveți ceva nou?\n\nApasă o cifră pe tastatură: \n1. Finalizează sfatul anterior\n2. Primește un nou sfat\n3. Amintește-mi mâine"
       },
       {
         "ID": "start_started_mod_or_later_one",
-        "text": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
-        "lan": "",
-        "vars": ""
+        "english": "It looks like you started a parenting tip, but didn't finish receiving all of the information. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
+        "romanian": "Pare că ai început un sfat, dar nu ai terminat de primit toate informațiile. Ce ai vrea să faci?\n\nApasă o cifră pe tastatură: \n1. Primește informațiile rămase\n2. Amintește-mi mâine\n3. Am primit toate informațiile pe care le doream de la acest chatbot"
       },
       {
         "ID": "start_started_mod_or_later_multiple",
-        "text": "It looks like you have started, but not finished, {{1}} tips. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
-        "lan": "",
-        "vars": "{{1}}eng = 2\n"
+        "english": "It looks like you have started, but not finished, {{1}} tips. What would you like to do?\n\nPress a number on your keypad: \n1. Receive the remaining information\n2. Remind me tomorrow\n3. I've finished receiving all of the information that I want from this chatbot",
+        "romanian": "Se pare că ai început, dar nu ai terminat, sfaturile {{1}}. Ce dorești să faci?\n\nApasă o cifră pe tastatură: \n1. Primește informațiile rămase\n2. Amintește-mi mâine\n3. Am primit toate informațiile pe care le doream de la acest chatbot"
       },
       {
         "ID": "first_module_intro",
-        "text": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "You and your family are facing a challenging time. {prog_name} provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "romanian": "Dacă tu și familia ta treceți vreodată printr-o perioadă dificilă, Busola Părintelui oferă sfaturi utile despre cum să-ți susții copilul în momente de criză. Dorești să primești acum primele sfaturi?\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
       },
       {
         "ID": "daily_interaction",
-        "text": "New tips are ready for you. Would you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "New tips are ready for you. Would you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "romanian": "Noi sfaturi sunt disponibile pentru tine. Dorești să continui acum?\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
       },
       {
         "ID": "help_children_cope",
-        "text": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "romanian": "💛 Astăzi ne gândim la tine. Există lucruri simple pe care le poți face pentru a-ți ajuta copilul să facă față situației. Ai vrea să afli care sunt acestea? \n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
       },
       {
         "ID": "make_a_routine",
-        "text": "✨ Today’s tips can help your child feel more safe. Would you like to learn more? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
-      },
-      {
-        "ID": "calm_encourage",
-        "text": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱. \nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "✨ Today’s tips can help your child feel more safe. Would you like to learn more? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "romanian": "✨ Sfaturile de azi pot să-l ajute pe copilul tău să se simtă mai în siguranță. Vrei să afli mai multe? \n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
       },
       {
         "ID": "prepare_to_travel",
-        "text": "🧡 Planning to travel with your child soon?\nToday’s tips can help you prepare to stay safe— Would you like to learn more?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "🧡 Planning to travel with your child soon?\nToday’s tips can help you prepare to stay safe— Would you like to learn more?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "romanian": "🧡 Plănuiești să călătorești împreună cu copilul tău?\nSfaturile de azi te pot ajuta să fi pregătit pentru a rămâne în siguranță. Ai vrea să afli mai multe?\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
       },
       {
         "ID": "travel_safely",
-        "text": "💛 In stressful moments, even simple actions can help keep your child safe and close. Today’s tips share how to stay connected and calm when traveling.\nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "💛 In stressful moments, even simple actions can help keep your child safe and close. Today’s tips share how to stay connected and calm when traveling.\nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "romanian": "💛 În momentele stresante, chiar și acțiunile simple te pot ajuta să-ți protejezi copilul și să-l ții aproape. Sfaturile de azi îți arată cum să rămâi conectat și calm în timpul deplasărilor.\nDorești să le primești?\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
       },
       {
         "ID": "protect_sexual_violence",
-        "text": "💡 Many parents are having quiet talks with their children about staying safe. Today’s tips explain how to keep your child safe from harassment in a calm, age-appropriate way.\n\nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "💡 Many parents are having quiet talks with their children about staying safe. Today’s tips explain how to keep your child safe from harassment in a calm, age-appropriate way.\n\nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "romanian": "💡 Mulți părinți discută în liniște cu copiii lor despre siguranță. Sfaturile de astăzi îți explică modul în care îți poți proteja copilul de hărțuire, într-un stil calm și adecvat vârstei sale.\n\nDorești să le primești?\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
       },
       {
         "ID": "when_someone_dies",
-        "text": "🕊️ In war and other tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "english": "🕊️ In tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "romanian": "🕊️ În perioadele dificile, copiii observă mai multe decât credem noi. Sfaturile de azi te ajută să vorbești cu copilul tău despre moarte, astfel încât să se simtă mai în siguranță, mai puțin confuz și mai susținut. Ți-ar plăcea să primești sfaturile?\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
       },
       {
-        "ID": "building_strength",
-        "text": "🌿 Building strength in tough times starts with simple steps. Would you like to learn how to promote good behaviors and stay strong together?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "lan": "",
-        "vars": ""
+        "ID": "keep_children_safe",
+        "english": "",
+        "romanian": "💛 Asigurarea siguranței copiilor poate părea copleșitoare, dar un plan clar ajută. Sfatul de azi îți arată modalități simple de a-ți ajuta copilul să se simtă în siguranță și sprijinit în perioade incerte. \n\nVrei să continui acum?\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
+      },
+      {
+        "ID": "protect_from_traffickers",
+        "english": "",
+        "romanian": "💛 Poate fi înfricoșător să te gândești la traficanți, dar discuțiile cu copilul tău ajută la protejarea acestuia. Sfatul de astăzi îți oferă câteva modalități simple prin care îl poți ajuta să fie în siguranță și mai conștient de riscuri.\n\nVrei să continui acum?\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
+      },
+      {
+        "ID": "care_in_a_shelter",
+        "english": "",
+        "romanian": "💛 Uneori, familiile trebuie să stea într-un adăpost în timpul situațiilor de urgență sau în perioade nesigure. Sfatul de azi oferă câteva modalități simple prin care îți poți ajuta copilul să se simtă în siguranță și îngrijit acolo.\n\nVrei să continui acum?\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu, amintește-mi mâine"
       },
       {
         "ID": "no_response",
-        "text": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1.",
-        "lan": "",
-        "vars": ""
+        "english": "This time is difficult. It doesn't seem like you have the time for the these tips right now. When you are ready to keep going, press 1.",
+        "romanian": "Această perioadă este dificilă. Se pare că nu ai timp pentru aceste sfaturi. Când ești pregătit să continui, apasă 1."
       },
       {
         "ID": "1month",
-        "text": "Can you believe it’s been a month? ⏳\nWe’d love to check in and see how you’re doing ❤️. It’ll take less than 5 minutes.\nIs now a good time? 🙂\n\nPress a number on your keypad: \n1. Yes\n2. No",
-        "lan": "",
-        "vars": ""
+        "english": "Can you believe it’s been a month? ⏳\nWe’d love to check in and see how you’re doing ❤️. It’ll take less than 5 minutes.\nIs now a good time? 🙂\n\nPress a number on your keypad: \n1. Yes\n2. No",
+        "romanian": "Îți vine să crezi că a trecut o lună?⏳\nNe-ar plăcea să te contactăm și să vedem ce mai faci ❤️. Va dura mai puțin de 5 minute.\nEste un moment potrivit acum? 🙂\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu"
+      },
+      {
+        "ID": "1month_reminder",
+        "english": "",
+        "romanian": "Salutare din nou! \nNe-ar plăcea să te contactăm și să vedem ce mai faci ❤️. Va dura mai puțin de 5 minute.\nDorești să continui? 🙂\n\nApasă o cifră pe tastatură: \n1. Da\n2. Nu"
       }
     ],
     "interaction_data": [
@@ -400,7 +393,7 @@
       },
       {
         "ID": "first_module_intro",
-        "question": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "question": "You and your family are facing a challenging time. {prog_name} provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -418,6 +411,24 @@
       },
       {
         "ID": "daily_interaction",
+        "question": "New tips are ready for you. Would you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "OK, see you tomorrow.",
+        "options.3.text": "",
+        "options.3.proceed_result_value": "",
+        "options.3.stop_message": "",
+        "wa_template_ID": "daily_interaction",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "care_for_yourself",
         "question": "New tips are ready for you. Would you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
@@ -471,26 +482,8 @@
         "wa_template_vars.2": ""
       },
       {
-        "ID": "calm_encourage",
-        "question": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱. \nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "webhook_template_name": "",
-        "webhook_template_args": "",
-        "options.1.text": "1",
-        "options.1.proceed_result_value": "yes",
-        "options.1.stop_message": "",
-        "options.2.text": "2",
-        "options.2.proceed_result_value": "",
-        "options.2.stop_message": "OK, see you tomorrow.",
-        "options.3.text": "",
-        "options.3.proceed_result_value": "",
-        "options.3.stop_message": "",
-        "wa_template_ID": "calm_encourage",
-        "wa_template_vars.1": "",
-        "wa_template_vars.2": ""
-      },
-      {
         "ID": "prepare_to_travel",
-        "question": "🧡 Planning to travel with your child soon?\nToday’s tips can help you prepare to stay safe— Would you like to learn more?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "question": "🧡 Planning to travel with your child soon?\nToday’s tips can help you prepare to stay safe. Would you like to learn more?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -544,7 +537,7 @@
       },
       {
         "ID": "when_someone_dies",
-        "question": "🕊️ In war and other tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "question": "🕊️ In tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -561,8 +554,8 @@
         "wa_template_vars.2": ""
       },
       {
-        "ID": "building_strength",
-        "question": "🌿 Building strength in tough times starts with simple steps. Would you like to learn how to promote good behaviors and stay strong together?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "ID": "keep_children_safe",
+        "question": "💛 Keeping kids safe can feel overwhelming, but a clear plan helps. Today's tip shows you simple ways to help your child feel safe and supported in uncertain times. \n\nWould you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -574,7 +567,43 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "building_strength",
+        "wa_template_ID": "keep_children_safe",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "protect_from_traffickers",
+        "question": "💛 It can be frightening to think about traffickers, but talking with your child helps protect them. Today’s tip shows you simple ways to keep your child safe and aware.\n\nWould you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "OK, see you tomorrow.",
+        "options.3.text": "",
+        "options.3.proceed_result_value": "",
+        "options.3.stop_message": "",
+        "wa_template_ID": "protect_from_traffickers",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "care_in_a_shelter",
+        "question": "💛 Sometimes families need to stay in a shelter during emergencies or unsafe times. Today’s tip shares simple ways to help your child feel safe and cared for there.\n\nWould you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "OK, see you tomorrow.",
+        "options.3.text": "",
+        "options.3.proceed_result_value": "",
+        "options.3.stop_message": "",
+        "wa_template_ID": "care_in_a_shelter",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       }
@@ -587,16 +616,19 @@
         "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
-        "other_option": "Proceed to the next tip",
-        "other_flow": "new_day_goal_content",
+        "other_option": "",
+        "other_flow": "",
         "refuse": "Nothing. Let's continue tomorrow.",
         "refuse_msg": "Alright. I will share more tips tomorrow. ",
         "refuse_flow": "",
         "next_offer_msg": "What would you like now?",
         "next_accept": "Another fun activity I can do with my child",
-        "next_other_opt": "Get another tip",
+        "next_refuse": "Nothing. Let's continue tomorrow.",
+        "next_refuse_msg": "Alright. I will share more tips tomorrow. ",
+        "next_refuse_flow": "",
+        "next_other_opt": "",
         "next_other_msg": "",
-        "next_other_flow": "new_day_goal_content"
+        "next_other_flow": ""
       },
       {
         "ID": "demo",
@@ -605,16 +637,19 @@
         "accept.child": "A fun activity I can do with my child",
         "accept.teen": "NA",
         "accept.baby": "NA",
-        "other_option": "Proceed to the next tip",
-        "other_flow": "new_day_goal_content",
+        "other_option": "",
+        "other_flow": "",
         "refuse": "Continue with more tips tomorrow. ",
         "refuse_msg": "Alright. I will share more tips tomorrow. ",
         "refuse_flow": "",
         "next_offer_msg": "What would you like now?",
         "next_accept": "View another activity idea",
-        "next_other_opt": "Get another tip",
+        "next_refuse": "Nothing. Let's continue tomorrow.",
+        "next_refuse_msg": "Alright. I will share more tips tomorrow. ",
+        "next_refuse_flow": "",
+        "next_other_opt": "",
         "next_other_msg": "",
-        "next_other_flow": "new_day_goal_content"
+        "next_other_flow": ""
       },
       {
         "ID": "menu",
@@ -630,6 +665,9 @@
         "refuse_flow": "",
         "next_offer_msg": "What would you like to do?",
         "next_accept": "View another activity idea",
+        "next_refuse": "",
+        "next_refuse_msg": "",
+        "next_refuse_flow": "",
         "next_other_opt": "Go to Main Menu",
         "next_other_msg": "",
         "next_other_flow": "menu - main"
@@ -659,6 +697,12 @@
         "msg": "Let’s get started. Press NEXT to begin.",
         "next_button_option": "NEXT",
         "metadata.description": "message received before the first module. It has a NEXT button, where NEXT can be replaced by anything  (anything typed in the chat will work anyway)"
+      },
+      {
+        "ID": "new_day_content_completed_programme",
+        "msg": "You’ve completed the {prog_name} – well done! There are no new tips available, but you can always review any of the completed tips by selecting option 1 in the {MENU}",
+        "next_button_option": "",
+        "metadata.description": ""
       }
     ],
     "completion_tracker_data": [

@@ -16,9 +16,19 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "r\u0103pi",
+                        "r\u0103pire",
+                        "r\u0103pitor",
+                        "r\u0103pit"
+                    ],
+                    "mispellings": [
+                        "rapi",
+                        "rapire",
+                        "rapitor",
+                        "rapit"
+                    ]
                 }
             }
         },
@@ -35,9 +45,17 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "moarte",
+                        "mort",
+                        "pe moarte"
+                    ],
+                    "mispellings": [
+                        "moarate",
+                        "mrot",
+                        "pe moarate"
+                    ]
                 }
             }
         },
@@ -53,9 +71,13 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "ilegal"
+                    ],
+                    "mispellings": [
+                        "ileagl"
+                    ]
                 }
             }
         },
@@ -70,14 +92,21 @@
                     "pesian",
                     "boisoned",
                     "poision",
-                    "poisioning",
-                    ""
+                    "poisioning"
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "otrav\u0103",
+                        "otr\u0103vire",
+                        "otr\u0103vit"
+                    ],
+                    "mispellings": [
+                        "otrava",
+                        "otravire",
+                        "otravit"
+                    ]
                 }
             }
         },
@@ -93,9 +122,14 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "criz\u0103",
+                        "crize"
+                    ],
+                    "mispellings": [
+                        "criza"
+                    ]
                 }
             }
         },
@@ -114,8 +148,10 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "dificultate"
+                    ],
                     "mispellings": []
                 }
             }
@@ -133,9 +169,14 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "victim\u0103",
+                        "victimizat"
+                    ],
+                    "mispellings": [
+                        "victima"
+                    ]
                 }
             }
         },
@@ -153,9 +194,14 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "urgen\u021b\u0103",
+                        "112.0"
+                    ],
+                    "mispellings": [
+                        "urgenta"
+                    ]
                 }
             }
         },
@@ -174,8 +220,12 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "pericol",
+                        "periculos",
+                        "\u00een pericol"
+                    ],
                     "mispellings": []
                 }
             }
@@ -196,9 +246,17 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "urm\u0103rire",
+                        "urm\u0103ritor",
+                        "urm\u0103rit"
+                    ],
+                    "mispellings": [
+                        "urmarire",
+                        "urmaritor",
+                        "urmarit"
+                    ]
                 }
             }
         },
@@ -217,9 +275,17 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "urm\u0103rire",
+                        "urm\u0103ritor",
+                        "urm\u0103rit"
+                    ],
+                    "mispellings": [
+                        "urmarire",
+                        "urmaritor",
+                        "urmarit"
+                    ]
                 }
             }
         },
@@ -238,9 +304,16 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "suferin\u021b\u0103",
+                        "suferin\u021b\u0103",
+                        "suferit",
+                        "torturat"
+                    ],
+                    "mispellings": [
+                        "suferinta"
+                    ]
                 }
             }
         },
@@ -258,8 +331,11 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "ascunde",
+                        "ascuns"
+                    ],
                     "mispellings": []
                 }
             }
@@ -280,9 +356,16 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "vom\u0103",
+                        "vomat",
+                        "v\u0103rs\u0103turi"
+                    ],
+                    "mispellings": [
+                        "voma",
+                        "varsaturi"
+                    ]
                 }
             }
         },
@@ -300,9 +383,16 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "vom\u0103",
+                        "vomit\u0103",
+                        "vomitat"
+                    ],
+                    "mispellings": [
+                        "voma",
+                        "vomita"
+                    ]
                 }
             }
         },
@@ -320,9 +410,16 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "boal\u0103",
+                        "transmitere sexual\u0103",
+                        "boli"
+                    ],
+                    "mispellings": [
+                        "boala",
+                        "transmitere sexuala"
+                    ]
                 }
             }
         },
@@ -340,9 +437,16 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "bolnav",
+                        "boal\u0103",
+                        "boln\u0103vicios"
+                    ],
+                    "mispellings": [
+                        "boala",
+                        "bolnavicios"
+                    ]
                 }
             }
         },
@@ -360,9 +464,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "bolnav",
+                        "boal\u0103",
+                        "boli"
+                    ],
+                    "mispellings": [
+                        "boala"
+                    ]
                 }
             }
         },
@@ -379,9 +489,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "s\u0103n\u0103tate",
+                        "s\u0103n\u0103tos"
+                    ],
+                    "mispellings": [
+                        "sanatate",
+                        "sanatos"
+                    ]
                 }
             }
         },
@@ -398,9 +514,14 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "spital",
+                        "clinic\u0103"
+                    ],
+                    "mispellings": [
+                        "clinica"
+                    ]
                 }
             }
         },
@@ -416,8 +537,11 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "avortat spontan",
+                        "avort spontan"
+                    ],
                     "mispellings": []
                 }
             }
@@ -436,8 +560,11 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "gravid\u0103",
+                        "sarcin\u0103"
+                    ],
                     "mispellings": []
                 }
             }
@@ -456,8 +583,13 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "avortare",
+                        "avort",
+                        "avortat",
+                        "avortare"
+                    ],
                     "mispellings": []
                 }
             }
@@ -471,8 +603,11 @@
                 "mispellings": []
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "COVID",
+                        "COVID19"
+                    ],
                     "mispellings": []
                 }
             }
@@ -493,8 +628,12 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "anxietate",
+                        "anxios",
+                        "anxietate"
+                    ],
                     "mispellings": []
                 }
             }
@@ -513,8 +652,12 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "depresie",
+                        "depresiv",
+                        "deprimat"
+                    ],
                     "mispellings": []
                 }
             }
@@ -532,9 +675,14 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "tulburare",
+                        "tulbur\u0103ri"
+                    ],
+                    "mispellings": [
+                        "tulburari"
+                    ]
                 }
             }
         },
@@ -550,8 +698,10 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "terapie"
+                    ],
                     "mispellings": []
                 }
             }
@@ -567,8 +717,10 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "psiholog"
+                    ],
                     "mispellings": []
                 }
             }
@@ -586,9 +738,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "sinucidere",
+                        "sinuciga\u0219",
+                        "sinucideri"
+                    ],
+                    "mispellings": [
+                        "sinucigas"
+                    ]
                 }
             }
         },
@@ -606,8 +764,11 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "stres",
+                        "stresat"
+                    ],
                     "mispellings": []
                 }
             }
@@ -626,9 +787,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "m\u00e2hnire",
+                        "m\u00e2hnit"
+                    ],
+                    "mispellings": [
+                        "mahnire",
+                        "mahnit"
+                    ]
                 }
             }
         },
@@ -645,9 +812,14 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "trisit",
+                        "\u00eentristat"
+                    ],
+                    "mispellings": [
+                        "intristat"
+                    ]
                 }
             }
         },
@@ -663,9 +835,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "spaim\u0103",
+                        "\u00eensp\u0103im\u00e2ntat"
+                    ],
+                    "mispellings": [
+                        "spaima",
+                        "inspaimantat"
+                    ]
                 }
             }
         },
@@ -679,9 +857,13 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "team\u0103"
+                    ],
+                    "mispellings": [
+                        "teama"
+                    ]
                 }
             }
         },
@@ -695,9 +877,13 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "\u00eengrijorat"
+                    ],
+                    "mispellings": [
+                        "ingrijorat"
+                    ]
                 }
             }
         },
@@ -713,9 +899,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "fric\u0103",
+                        "\u00eenfrico\u0219at"
+                    ],
+                    "mispellings": [
+                        "frica",
+                        "infricosat"
+                    ]
                 }
             }
         },
@@ -733,9 +925,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "panic\u0103",
+                        "panic\u0103",
+                        "panicat"
+                    ],
+                    "mispellings": [
+                        "panica"
+                    ]
                 }
             }
         },
@@ -750,8 +948,10 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "nebun"
+                    ],
                     "mispellings": []
                 }
             }
@@ -767,8 +967,10 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "durere"
+                    ],
                     "mispellings": []
                 }
             }
@@ -791,8 +993,13 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "foc",
+                        "incendiu vegeta\u021bie",
+                        "explozie",
+                        "ars"
+                    ],
                     "mispellings": []
                 }
             }
@@ -812,9 +1019,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "cutremur",
+                        "alunecare teren",
+                        "pr\u0103bu\u015fire"
+                    ],
+                    "mispellings": [
+                        "prabusire"
+                    ]
                 }
             }
         },
@@ -834,9 +1047,16 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "inunda\u0163ie",
+                        "inundadat",
+                        "inunda\u021bii"
+                    ],
+                    "mispellings": [
+                        "inundatii",
+                        "inundatie"
+                    ]
                 }
             }
         },
@@ -853,8 +1073,12 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "fum",
+                        "afumat",
+                        "scoate fum"
+                    ],
                     "mispellings": []
                 }
             }
@@ -875,9 +1099,21 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "Add translation",
+                        "uragan",
+                        "tornad\u0103",
+                        "ciclon"
+                    ],
+                    "mispellings": [
+                        "furtun\u0103",
+                        "ploaie",
+                        "ap\u0103",
+                        "vijelie",
+                        "tornada",
+                        "furtuna"
+                    ]
                 }
             }
         },
@@ -893,9 +1129,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "inunda\u021bii",
+                        "uscat",
+                        "ariditate"
+                    ],
+                    "mispellings": [
+                        "inundatii"
+                    ]
                 }
             }
         },
@@ -911,7 +1153,7 @@
                 ]
             },
             "Translation": {
-                "lan": {
+                "ron": {
                     "keywords": [],
                     "mispellings": []
                 }
@@ -928,9 +1170,15 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "v\u00e2nt",
+                        "furtun\u0103"
+                    ],
+                    "mispellings": [
+                        "vant",
+                        "furtuna"
+                    ]
                 }
             }
         }
@@ -939,8 +1187,7 @@
         {
             "English": {
                 "keywords": [
-                    "MENU",
-                    "Main Menu"
+                    "MENU"
                 ],
                 "mispellings": [
                     "Menue",
@@ -950,8 +1197,10 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "MENIU"
+                    ],
                     "mispellings": []
                 }
             }
@@ -971,8 +1220,10 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "AJUTOR"
+                    ],
                     "mispellings": []
                 }
             }
@@ -991,9 +1242,13 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "PAUZ\u0102"
+                    ],
+                    "mispellings": [
+                        "pauza"
+                    ]
                 }
             }
         }
@@ -1002,14 +1257,74 @@
         {
             "English": {
                 "keywords": [
-                    "test"
+                    "test_eng",
+                    "test_ro",
+                    "test_eng_dig",
+                    "test_ro_dig"
                 ],
                 "mispellings": []
             },
             "Translation": {
-                "lan": {
+                "ron": {
                     "keywords": [
-                        "test"
+                        "test_eng",
+                        "test_ro",
+                        "test_eng_dig",
+                        "test_ro_dig"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "support",
+                    "sprijin"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ron": {
+                    "keywords": [
+                        "support",
+                        "sprijin"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "tip",
+                    "sfat"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ron": {
+                    "keywords": [
+                        "tip",
+                        "sfat"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "compass",
+                    "busola"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ron": {
+                    "keywords": [
+                        "compass",
+                        "busola"
                     ],
                     "mispellings": []
                 }
@@ -1029,9 +1344,17 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
-                    "mispellings": []
+                "ron": {
+                    "keywords": [
+                        "stop",
+                        "oprire",
+                        "opre\u0219te",
+                        "suspend\u0103"
+                    ],
+                    "mispellings": [
+                        "opreste",
+                        "suspenda"
+                    ]
                 }
             }
         }
@@ -1050,8 +1373,10 @@
                 ]
             },
             "Translation": {
-                "lan": {
-                    "keywords": [],
+                "ron": {
+                    "keywords": [
+                        "JOC"
+                    ],
                     "mispellings": []
                 }
             }
